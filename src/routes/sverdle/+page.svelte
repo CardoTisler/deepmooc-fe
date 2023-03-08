@@ -5,7 +5,7 @@
 	import { reduced_motion } from './reduced-motion';
 
 	export let data: PageData;
-
+	// console.log(`clientside res: ${data.res.record.name}`);
 	export let form: ActionData;
 
 	/** Whether or not the user has won */
@@ -87,7 +87,6 @@
 </svelte:head>
 
 <h1 class="visually-hidden">Sverdle</h1>
-
 <form
 	method="POST"
 	action="?/enter"

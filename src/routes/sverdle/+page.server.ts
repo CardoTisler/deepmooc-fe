@@ -2,15 +2,18 @@ import { fail } from '@sveltejs/kit';
 import { Game } from './game';
 import type { PageServerLoad, Actions } from './$types';
 
-export const load = (({ cookies }) => {
+export const load = (async ({fetch, cookies}) => {
 	const game = new Game(cookies.get('sverdle'));
-
+	// const res = await fetch('https://api.jsonbin.io/v3/qs/64074d3cc0e7653a0583e6f2').then((res) => {
+	// 	return res.json();
+	// });
+	// console.log(res);
 	return {
 		/**
 		 * The player's guessed words so far
 		 */
 		guesses: game.guesses,
-
+		// res: res,
 		/**
 		 * An array of strings like '__x_c' corresponding to the guesses, where 'x' means
 		 * an exact match, and 'c' means a close match (right letter, wrong place)
