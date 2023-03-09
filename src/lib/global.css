@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .bordered {
-    border-style: dashed;
-    border-color: plum;
-    border-width: 1px;
+	border-style: dashed;
+	border-color: plum;
+	border-width: 1px;
 }
 
 body {
@@ -13,13 +13,7 @@ body {
 	margin: 0;
 	background-attachment: fixed;
 	/* background-color: var(--color-bg-1); */
-	background: linear-gradient(
-		to top,
-		whitesmoke 0%,
-		whitesmoke 75%,
-		white 75%,
-		white 100%
-	);
+	background: linear-gradient(to top, whitesmoke 0%, whitesmoke 75%, white 75%, white 100%);
 	background-size: 100vw 100vh;
 	/* background-image: radial-gradient(
 			50% 50% at 50% 50%,

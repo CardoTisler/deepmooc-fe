@@ -2,7 +2,7 @@ import { fail } from '@sveltejs/kit';
 import { Game } from './game';
 import type { PageServerLoad, Actions } from './$types';
 
-export const load = (async ({fetch, cookies}) => {
+export const load = (async ({ fetch, cookies }) => {
 	const game = new Game(cookies.get('sverdle'));
 	// const res = await fetch('https://api.jsonbin.io/v3/qs/64074d3cc0e7653a0583e6f2').then((res) => {
 	// 	return res.json();

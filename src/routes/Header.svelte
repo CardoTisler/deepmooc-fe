@@ -1,5 +1,5 @@
 <script>
-	import profileIcon from '$lib/images/profile.svg';
+	import ProfileIcon from '$lib/components/icons/ProfileIcon.svelte';
 </script>
 
 <header class="flex flex-row justify-between bg-white shadow-md">
@@ -11,7 +11,7 @@
 			<button class="self-end">Logi välja</button>
 		</div>
 		<div class="bordered ml-4 w-12">
-			<img src={profileIcon} alt="profile icon" />
+			<ProfileIcon />
 		</div>
 	</div>
 </header>
