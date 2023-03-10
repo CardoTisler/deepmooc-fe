@@ -3,7 +3,7 @@
 </script>
 
 <header class="flex flex-row justify-between bg-white shadow-md">
-	<div class="flex w-32 h-16 bordered">Icon</div>
+	<div class="flex w-32 h-16 bordered"><a href="/" class="w-full">Icon</a></div>
 
 	<div class="flex flex-row w-64 h-16 bordered">
 		<div class="flex flex-col">

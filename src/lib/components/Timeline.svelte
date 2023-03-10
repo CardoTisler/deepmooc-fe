@@ -1,22 +1,16 @@
 <script lang="ts">
 	import type { TimelineEventData } from '$lib/types';
 	import TimelineEvent from '$lib/components/TimelineEvent.svelte';
+	import Section from './util/Section.svelte';
 
-	const exampleTimelineEvent: TimelineEventData = {
-		title: '6.A Kahendpuu läbimine',
-		subTitle: 'ALGORITMID JA ANDMESTRUKTUURID',
-		deadlineTime: '21:00',
-		deadlineDate: '12.02.2023',
-		timeRemaining: '3 päeva ja 8 tundi'
-	};
+	export let eventsList: TimelineEventData[];
 </script>
 
-<div class="flex flex-col ml-12 bg-white p-4 border-2 border-gray-200 rounded-xl">
+<Section class="flex flex-col ml-12 p-4 max-w-lg">
 	<div>
 		<p class="text-lg font-thin">AJAJOON</p>
 	</div>
-
-	<TimelineEvent data={exampleTimelineEvent} />
-	<TimelineEvent data={exampleTimelineEvent} />
-	<TimelineEvent data={exampleTimelineEvent} />
-</div>
+	{#each eventsList as data}
+		<TimelineEvent {data} />
+	{/each}
+</Section>

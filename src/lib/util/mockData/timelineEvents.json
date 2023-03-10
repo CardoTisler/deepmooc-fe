@@ -1,0 +1,29 @@
+{
+	"ok": true,
+	"data": [
+		{
+			"title": "6.A Kahendpuu läbimine",
+			"subTitle": "ALGORITMID JA ANDMESTRUKTUURID",
+			"deadlineTime": "21:00",
+			"deadlineDate": "12.02.2023",
+			"timeRemaining": "3 päeva ja 8 tundi",
+			"tags": ["lihtne", "7 punkti"]
+		},
+		{
+			"title": "1.2 Parameetrid",
+			"subTitle": "PROGRAMMEERIMINE II",
+			"deadlineTime": "23:59",
+			"deadlineDate": "16.02.2023",
+			"timeRemaining": "11 päeva ja 13 tundi",
+			"tags": ["keeruline", "10 punkti"]
+		},
+		{
+			"title": "7.1 Kolmikpuu unustamine",
+			"subTitle": "ALGORITMID JA ANDMESTRUKTUURID",
+			"deadlineTime": "23:59",
+			"deadlineDate": "16.02.2023",
+			"timeRemaining": "11 päeva ja 13 tundi",
+			"tags": ["keeruline", "10 punkti"]
+		}
+	]
+}

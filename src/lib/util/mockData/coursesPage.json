@@ -1,0 +1,185 @@
+{
+	"ok": true,
+	"data": {
+		"111782": {
+			"courseName": "Programmeerimine II",
+			"courseCode": "LTAT.01.003",
+			"topicsList": [
+				{
+					"topicTitle": "1. Funktsioonid",
+					"topicDescription": "Funktsioonid on programmeerimise vahend, mis võimaldab koodi jagada modulaarseteks osadeks ja neid uuesti kasutada. Funktsioonide defineerimine ja kutsumine ning nende parameetrite ja argumentide kasutamine võimaldavad programmil olla skaleeritav ja jagatud erinevateks osadeks.",
+					"assignments": [
+						{
+							"assignmentId": 100,
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.1 Parameetrid",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": true
+						},
+						{
+							"assignmentId": 101,
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.2 While loop",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": true
+						},
+						{
+							"assignmentId": 102,
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.3 If else lause",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": true
+						},
+						{
+							"assignmentId": 103,
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.4 For each",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": false
+						}
+					]
+				},
+				{
+					"topicTitle": "2. Tsüklid",
+					"topicDescription": "Funktsioonid on programmeerimise vahend, mis võimaldab koodi jagada modulaarseteks osadeks ja neid uuesti kasutada. Funktsioonide defineerimine ja kutsumine ning nende parameetrite ja argumentide kasutamine võimaldavad programmil olla skaleeritav ja jagatud erinevateks osadeks.",
+					"assignments": [
+						{
+							"assignmentId": "1",
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.1 Parameetrid",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": true
+						},
+						{
+							"assignmentId": "1",
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.1 Parameetrid",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": true
+						},
+						{
+							"assignmentId": "1",
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.1 Parameetrid",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": true
+						},
+						{
+							"assignmentId": "1",
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.1 Parameetrid",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": false
+						}
+					]
+				}
+			]
+		},
+		"187243": {
+			"courseName": "Algoritmid ja andmestruktuurid",
+			"courseCode": "LTAT.03.005",
+			"topicsList": [
+				{
+					"topicTitle": "1. Algoritmid",
+					"topicDescription": "Funktsioonid on programmeerimise vahend, mis võimaldab koodi jagada modulaarseteks osadeks ja neid uuesti kasutada. Funktsioonide defineerimine ja kutsumine ning nende parameetrite ja argumentide kasutamine võimaldavad programmil olla skaleeritav ja jagatud erinevateks osadeks.",
+					"assignments": [
+						{
+							"assignmentId": "1",
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.1 Parameetrid",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": true
+						},
+						{
+							"assignmentId": "1",
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.1 Parameetrid",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": true
+						},
+						{
+							"assignmentId": "1",
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.1 Parameetrid",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": true
+						},
+						{
+							"assignmentId": "1",
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.1 Parameetrid",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": false
+						}
+					]
+				},
+				{
+					"topicTitle": "2. Andmestruktuurid",
+					"topicDescription": "Funktsioonid on programmeerimise vahend, mis võimaldab koodi jagada modulaarseteks osadeks ja neid uuesti kasutada. Funktsioonide defineerimine ja kutsumine ning nende parameetrite ja argumentide kasutamine võimaldavad programmil olla skaleeritav ja jagatud erinevateks osadeks.",
+					"assignments": [
+						{
+							"assignmentId": "1",
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.1 Parameetrid",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": true
+						},
+						{
+							"assignmentId": "1",
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.1 Parameetrid",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": true
+						},
+						{
+							"assignmentId": "1",
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.1 Parameetrid",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": true
+						},
+						{
+							"assignmentId": "1",
+							"topic": "1. FUNKTSIOONID",
+							"title": "1.1 Parameetrid",
+							"deadlineDate": "16.02.2023",
+							"deadlineTime": "23.59",
+							"tags": ["keeruline", "10 punkti"],
+							"completed": false
+						}
+					]
+				}
+			]
+		}
+	}
+}

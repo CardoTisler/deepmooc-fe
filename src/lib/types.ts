@@ -6,12 +6,13 @@ export interface LeaderboardRow {
 }
 
 export interface AssignmentOverview {
-	assignmentId: string;
+	assignmentId: number;
 	topic: string;
 	title: string;
 	deadlineDate: string;
 	deadlineTime: string;
 	tags: string[];
+	completed: boolean;
 }
 
 export interface TimelineEventData {
@@ -20,6 +21,7 @@ export interface TimelineEventData {
 	deadlineTime: string;
 	deadlineDate: string;
 	timeRemaining: string;
+	tags: string[];
 }
 
 export interface CourseOverviewData {
@@ -28,4 +30,16 @@ export interface CourseOverviewData {
 	courseCode: string;
 	leaderboardRows: LeaderboardRow[];
 	nextAssignment: AssignmentOverview;
+}
+
+export interface CoursePageData {
+	courseName: string;
+	courseCode: string;
+	topicsList: CourseTopicData[];
+}
+
+export interface CourseTopicData {
+	topicTitle: string;
+	topicDescription: string;
+	assignments: AssignmentOverview[];
 }
