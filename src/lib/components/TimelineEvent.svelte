@@ -30,8 +30,8 @@
 			{/each}
 		</div>
 		<div class="grid grid-cols-2 pt-4">
-			<div class="pb-2"><p class="tracking-wider text-gray-600">TÄHTAEG</p></div>
-			<div><p class="tracking-wider text-gray-600">AEGA JÄÄNUD</p></div>
+			<div class="pb-2"><p class="gray-spaced">TÄHTAEG</p></div>
+			<div><p class="gray-spaced">AEGA JÄÄNUD</p></div>
 			<div><p class="font-medium">{deadlineTime}</p></div>
 			<div><p class="font-medium">{timeRemaining}</p></div>
 			<div>{deadlineDate}</div>

@@ -43,3 +43,14 @@ export interface CourseTopicData {
 	topicDescription: string;
 	assignments: AssignmentOverview[];
 }
+
+export interface Task {
+    index: number;
+    description: string;
+}
+
+export interface AssignmentDetails {
+	title: string;
+	topic: string;
+	tasks: Task[]
+}

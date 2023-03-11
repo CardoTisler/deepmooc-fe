@@ -42,7 +42,7 @@
 		<Section class="flex flex-col max-w-md ml-12 p-6 h-fit">
 			<div class="flex flex-col">
 				<div class="flex flex-row justify-between">
-					<p class="tracking-wider text-gray-600">EDETABEL</p>
+					<p class="gray-spaced">EDETABEL</p>
 					<button on:click={() => alert('Dont know where to go')}>
 						<RightArrow stroke="text-gray-600" fill="text-gray-600" />
 					</button>
@@ -50,7 +50,7 @@
 				<Leaderboard rows={exampleLeaderboardRows} class="mt-6" />
 			</div>
 			<div class="flex flex-col">
-				<p class="tracking-wider text-gray-600 py-6">AKTIIVSED EDETABELID</p>
+				<p class="gray-spaced py-6">AKTIIVSED EDETABELID</p>
 				{#each activeLeaderboards as leaderboardRows}
 					<Leaderboard rows={leaderboardRows} class="my-2" />
 				{/each}

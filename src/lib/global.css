@@ -8,6 +8,11 @@
 	border-width: 1px;
 }
 
+.gray-spaced {
+	--tw-text-opacity: 1;
+	color: rgb(75 85 99 / var(--tw-text-opacity));
+	letter-spacing: 0.1em;
+}
 body {
 	min-height: 100vh;
 	margin: 0;

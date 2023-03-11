@@ -1,0 +1,17 @@
+{
+	"ok": true,
+	"data": {
+		"title": "1.1 Parameetrid",
+		"topic": "1. FUNKTSIOONID - PROGRAMMEERIMINE II",
+		"tasks": [
+			{
+				"index": 1,
+				"description": "Kirjuta funktsioon, mis võtab parameetriteks kaks täisarvu ja tagastab nende korrutise. Funktsiooni nimi võiks olla 'korruta'. Näiteks, kui funktsioonile antakse parameetriteks 4 ja 5, siis peaks tunktsioon tagastama väärtuse 20."
+			},
+			{
+				"index": 2,
+				"description": "Kirjuta funktsioon, mis võtab parameetriteks järjendi täisarvudega ja tagastab selle järjendi summa. Funktsiooni nimi võiks olla 'leia_summa'. Näiteks, kui funktsioonile antakse parameetriks järjend [1,2,3], siis peaks funktsioon tagastama väärtuse 6."
+			}
+		]
+	}
+}
