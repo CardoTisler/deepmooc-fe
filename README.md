@@ -5,6 +5,10 @@ git clone git@github.com:CardoTisler/deepmooc-fe.git
 ```
 
 ```bash
+nvm use
+```
+
+```bash
 npm install
 ```
 
