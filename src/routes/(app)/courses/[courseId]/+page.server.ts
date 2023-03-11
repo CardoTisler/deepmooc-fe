@@ -8,7 +8,7 @@ import type { PageServerLoad } from './$types';
 export const load = (async ({ params, fetch }) => {
 	const { courseId } = params;
 	// TODO: Find pageData based on courseId
-	const { data: coursePageData } = await fetch('/src/lib/util/mockData/coursesPage.json')
+	const { data: coursePageData } = await fetch('/mockData/coursesPage.json')
 		.then((res) => res.json())
 		.catch((e) => console.log(e));
 
