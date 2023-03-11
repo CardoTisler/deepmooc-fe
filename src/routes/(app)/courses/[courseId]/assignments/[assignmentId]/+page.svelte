@@ -9,8 +9,13 @@
 	} = data;
 </script>
 
+<svelte:head>
+	<title>{title}</title>
+	<meta name="description" content="Assignment page" />
+</svelte:head>
+
 <div class="">
-	<div class="bg-white bordered h-40 flex items-end p-3">
+	<div class="bg-white h-40 flex items-end p-3">
 		<div>
 			<p class="flex text-3xl font-bold">{title}</p>
 			<p>{topic}</p>

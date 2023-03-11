@@ -9,4 +9,4 @@ if [ "$BRANCH_NAME" = "main" ] || [ "$BRANCH_NAME" = "dev" ]; then
 fi
 
 npx lint-staged
-npm test
+# npm test

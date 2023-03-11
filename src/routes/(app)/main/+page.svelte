@@ -13,7 +13,7 @@
 </svelte:head>
 
 <div class="flex flex-col">
-	<div class="bg-white bordered h-40 flex items-end p-3">
+	<div class="bg-white h-40 flex items-end p-3">
 		<p class="flex text-3xl font-bold">Avaleht</p>
 	</div>
 

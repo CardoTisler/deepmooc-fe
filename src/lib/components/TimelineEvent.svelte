@@ -7,7 +7,8 @@
 	const { title, subTitle, deadlineTime, deadlineDate, timeRemaining, tags } = data;
 </script>
 
-<div class="flex flex-col p-2 bordered">
+<!-- TODO: Replace side border and HTML circle with appropriate SVG -->
+<div class="flex flex-col p-2">
 	<div class="flex flex-row">
 		<p class="text-xs">&#9711;</p>
 		<div class="flex flex-row pl-3 w-full justify-between">

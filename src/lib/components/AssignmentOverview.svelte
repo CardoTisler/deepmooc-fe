@@ -4,7 +4,8 @@
 	import RightArrow from './icons/RightArrow.svelte';
 	export let data: AssignmentOverview;
 
-	const { topic, tags, title, deadlineTime, deadlineDate, completed } = data;
+	const { assignmentId, topic, tags, title, deadlineTime, deadlineDate, completed, courseId } =
+		data;
 </script>
 
 <!-- TODO: Need to accept and handle courseId for redirecting to courses/:courseId/assignments/:assignmentId -->
@@ -31,15 +32,15 @@
 			{#if completed}
 				<button class="btn-disabled text-gray-600 px-2 py-1 rounded-sm">Lahendatud</button>
 			{:else}
-				<button
+				<a
 					class="btn-accent rounded-sm px-2 py-1 flex flex-row"
-					on:click={() => alert('go to courses/:courseId/assignments/:assignmentId')}
+					href={`/courses/${courseId}/assignments/${assignmentId}`}
 				>
 					Lahenda
 					<span class="pl-2">
 						<RightArrow />
 					</span>
-				</button>
+				</a>
 			{/if}
 		</div>
 	</div>

@@ -7,6 +7,7 @@ export interface LeaderboardRow {
 
 export interface AssignmentOverview {
 	assignmentId: number;
+	courseId: number;
 	topic: string;
 	title: string;
 	deadlineDate: string;
@@ -45,12 +46,12 @@ export interface CourseTopicData {
 }
 
 export interface Task {
-    index: number;
-    description: string;
+	index: number;
+	description: string;
 }
 
 export interface AssignmentDetails {
 	title: string;
 	topic: string;
-	tasks: Task[]
+	tasks: Task[];
 }

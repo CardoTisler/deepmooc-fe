@@ -6,13 +6,13 @@ import type { PageServerLoad } from './$types';
 export const load = (async ({ params, fetch }) => {
 	// const { assignmentId, courseId } = params;
 
-	const { data: details } = await fetch("/src/lib/util/mockData/assignmentDetails.json")
-        .then((res) => res.json())
-        .catch((err) => console.log(err));
+	const { data: details } = await fetch('/src/lib/util/mockData/assignmentDetails.json')
+		.then((res) => res.json())
+		.catch((err) => console.log(err));
 
-    const assignmentDetails: AssignmentDetails = details;
+	const assignmentDetails: AssignmentDetails = details;
 
 	return {
-		assignmentDetails,
+		assignmentDetails
 	};
 }) satisfies PageServerLoad;
