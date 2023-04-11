@@ -5,5 +5,5 @@
 </script>
 
 <div class="rounded-full bg-gray-200 px-2 {style}">
-	<p class="text-gray-600">{text}</p>
+	<span class="text-gray-600">{text}</span>
 </div>

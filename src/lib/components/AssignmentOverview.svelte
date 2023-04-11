@@ -9,10 +9,10 @@
 </script>
 
 <!-- TODO: Need to accept and handle courseId for redirecting to courses/:courseId/assignments/:assignmentId -->
-<div class="flex flex-col bg-gray-100 rounded-xl h-36 p-2 border-gray-200 border-2 max-w-xl">
-	<div class="flex flex-row justify-between">
-		<div class="w-1/2"><p>{topic}</p></div>
-		<div class="flex flex-row w-1/2 justify-end">
+<div class="flex flex-col bg-gray-100 rounded-xl lg:h-36 p-2 border-gray-200 border-2 lg:container max-w-xl">
+	<div class="flex flex-col lg:flex-row justify-between">
+		<div class=""><p>{topic}</p></div>
+		<div class="flex flex-row justify-start lg:justify-end">
 			{#each tags as tag}
 				<div class="mx-1">
 					<Pill text={tag} />
@@ -30,10 +30,10 @@
 		</div>
 		<div class="flex items-center">
 			{#if completed}
-				<button class="btn-disabled text-gray-600 px-2 py-1 rounded-sm">Lahendatud</button>
+				<button class="border border-gray-700 text-gray-600 p-2 rounded-sm disabled">Lahendatud</button>
 			{:else}
 				<a
-					class="btn-accent rounded-sm px-2 py-1 flex flex-row"
+					class="bg-primary-200 text-white hover:bg-primary-300 rounded-sm p-2 flex flex-row"
 					href={`/courses/${courseId}/assignments/${assignmentId}`}
 				>
 					Lahenda
@@ -45,3 +45,9 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	.container {
+		min-width: 360px;
+	}
+</style>

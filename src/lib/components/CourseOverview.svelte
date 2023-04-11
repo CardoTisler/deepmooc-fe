@@ -12,17 +12,17 @@
 	const { courseId, courseName, courseCode, leaderboardRows: rows, nextAssignment } = data;
 </script>
 
-<Section class={`p-8 grid grid-cols-1 gap-4 lg:gap-10 max-w-2xl lg:max-w-5xl ${style}`}>
+<Section class={`p-8 grid grid-cols-1 gap-4 lg:gap-10 max-w-2xl lg:max-w-5xl lg:min-w-lg ${style}`}>
 	<div class="flex flex-row justify-between">
 		<div>
-			<p class="text-4xl font-bold">{courseName}</p>
-			<p class="font-thin">{courseCode}</p>
+			<h2 class="">{courseName}</h2>
+			<p class="gray-spaced">{courseCode}</p>
 		</div>
 		<div class="ml-16 lg:ml-0 flex items-center">
 			<a href={`/courses/${courseId}`}><RightArrow fill={'black'} stroke={'black'} /></a>
 		</div>
 	</div>
-	<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+	<div class="grid grid-cols-1 2xl:grid-cols-2 gap-8">
 		<!-- TODO: What if there is no leaderboard? -->
 		<div class="flex flex-col">
 			<p>EDETABEL</p>

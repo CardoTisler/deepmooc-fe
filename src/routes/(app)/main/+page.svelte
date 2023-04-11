@@ -12,20 +12,20 @@
 	<meta name="description" content="Deepmooc avaleht" />
 </svelte:head>
 
-<div class="flex flex-col">
-	<div class="bg-white h-40 flex items-end p-3">
-		<p class="flex text-3xl font-bold">Avaleht</p>
+<div class="flex flex-col px-5 lg:px-20">
+	<div class="h-40 flex items-end p-3">
+		<h1>Avaleht</h1>
 	</div>
 
-	<div class="flex flex-row">
-		<div class="flex flex-col w-1/2 lg:w-3/5">
+	<div class="flex flex-col items-center xl:flex-row">
+		<div class="flex flex-col lg:w-3/5">
 			<!-- TODO: Create JSON objects that hold all necessary data for overviews, fetch them from server and insert here -->
 			{#each courseOverviewList as data}
 				<CourseOverview {data} class="mb-12" />
 			{/each}
 		</div>
 
-		<div class="w-1/2 lg:w-2/5">
+		<div class="lg:w-2/5">
 			<!-- TODO: Create JSON object that holds all necessary data for timeline, fetch them from server and insert here -->
 			<Timeline eventsList={timelineEventsList} />
 		</div>
@@ -33,4 +33,7 @@
 </div>
 
 <style>
+	.container {
+		min-width: 860px;
+	}
 </style>

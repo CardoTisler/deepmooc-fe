@@ -13,7 +13,7 @@
 		<p class="text-xs">&#9711;</p>
 		<div class="flex flex-row pl-3 w-full justify-between">
 			<div>
-				<p>{title}</p>
+				<h3>{title}</h3>
 			</div>
 			<div>
 				<!-- TODO: Make it thinner -->
@@ -23,7 +23,7 @@
 	</div>
 	<div class="flex flex-col border-l-2 border-black pl-8">
 		<div>
-			<p class="font-thin">{subTitle}</p>
+			<p class="gray-spaced">{subTitle}</p>
 		</div>
 		<div class="flex flex-row">
 			{#each tags as tag}

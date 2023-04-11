@@ -4,12 +4,12 @@
 
 <div class="content grid grid-cols-1 justify-end">
 	<div />
-	<div class="w-1/2 pl-16 h-1/2">
+	<div class="lg:w-1/2 pl-16 h-1/2">
 		<p class="text-4xl font-semibold pb-12 tracking-wide">Tooru</p>
 		<p class="text-gray-600 text-xl pb-16">
 			Pole midagi stressirohkemat, kui liiga vähe stressi. Tere tulemast koodipõrgusse.
 		</p>
-		<a href="/main" class="w-28 flex flex-row btn-accent py-2 px-2 rounded-md">
+		<a href="/main" class="w-28 text-white flex flex-row bg-primary-200 hover:bg-primary-300 p-2 rounded-md">
 			Sisene
 			<span class="ml-3">
 				<RightArrow />

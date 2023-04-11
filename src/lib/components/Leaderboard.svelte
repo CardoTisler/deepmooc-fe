@@ -6,7 +6,7 @@
 </script>
 
 <div
-	class="rounded-xl bg-gray-100 border-2 border-gray-200 h-36 flex flex-col justify-evenly {style}"
+	class="rounded-xl bg-gray-100 border-2 border-gray-200 h-36 flex flex-col justify-evenly container max-w-xl {style}"
 >
 	{#each rows as { index, name, score, bold }, i}
 		<div class="grid grid-cols-3 gap-4 w-full">
@@ -31,4 +31,7 @@
 </div>
 
 <style>
+	.container {
+		min-width: 360px;
+	}
 </style>

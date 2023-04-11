@@ -2,7 +2,17 @@
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+			colors: {
+				transparent: 'transparent',
+				current: 'currentColor',
+				'primary': {
+					100: '#2DF0D3',
+					200: '#1ADBBE',
+					300: '#0DBFA4'	
+				}
+			}
+		},
 	},
-	plugins: [require('daisyui')]
+	// plugins: [require('daisyui')]
 };

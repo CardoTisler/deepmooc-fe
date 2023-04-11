@@ -6,3 +6,9 @@
 <div class="border-2 border-gray-200 rounded-xl bg-white w-full {style}">
 	<slot />
 </div>
+
+<style>
+	.min-w-lg {
+		min-width: 860px;
+	}
+</style>
