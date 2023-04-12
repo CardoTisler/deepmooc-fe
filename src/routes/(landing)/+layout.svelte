@@ -2,24 +2,26 @@
 	import { AccessibilityModal, Placeholder } from '$lib/components';
 	import '$lib/global.css';
 	import '../styles.css';
+	import theme from '$lib/shared/stores/theme';
+	$: isContrastMode = $theme === 'contrast';
 
-	let showAccessibilityMenu = true;
+	let showAccessibilityMenu = false;
 	const toggleAccessibilityMenu = () => {showAccessibilityMenu = !showAccessibilityMenu};
 </script>
 
-<div class="landing flex flex-col dark:bg-black">
-	<div class="h-16 lg:w-1/2 flex flex-row justify-between shadow-sm dark:bg-black">
+<div class="landing flex flex-col {isContrastMode ? 'black-bg' : ''}">
+	<div class="h-16 lg:w-1/2 flex flex-row justify-between shadow-sm">
 		<div class="w-64 h-full">
 			<a href="/" class="w-8"><Placeholder text="Logo" class="h-full" /></a>
 		</div>
 		<div class="self-center mr-2">
-			<button class="border rounded-sm p-1 dark:text-yellow-300" on:click={toggleAccessibilityMenu}>Juurdepääsetavus</button>
+			<button class="border-2 rounded-sm p-1 dark:text-yellow-300 focus:border-blue-600" on:click={toggleAccessibilityMenu}>Juurdepääsetavus</button>
 		</div>
 	</div>
 
 	<main>
 		{#if showAccessibilityMenu}
-			<div class="fixed bordered test">
+			<div class="fixed modal-position flex">
 				<AccessibilityModal toggleMenu={toggleAccessibilityMenu}/>
 			</div>
 		{/if}
@@ -41,9 +43,11 @@
 		flex-direction: column;
 		box-sizing: border-box;
 	}
-
-	.test {
-		top: 50%;
+	.black-bg {
+		background: black !important;
+	}
+	.modal-position {
+		top: 0%;
 		left: 50%;
 	}
 </style>

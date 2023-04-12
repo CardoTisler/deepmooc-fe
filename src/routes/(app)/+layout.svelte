@@ -4,7 +4,7 @@
 	import '../styles.css';
 </script>
 
-<div class="app">
+<div class="app dark:bg-black">
 	<Header />
 
 	<main>
