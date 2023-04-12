@@ -1,5 +1,10 @@
+export { default as AccessibilityModal } from '$lib/components/AccessibilityModal.svelte'
 export { default as AssignmentOverview } from '$lib/components/AssignmentOverview.svelte';
 export { default as CourseOverview } from '$lib/components/CourseOverview.svelte';
+export { default as CourseTopic } from '$lib/components/CourseTopic.svelte';
 export { default as Leaderboard } from '$lib/components/Leaderboard.svelte';
+export { default as Placeholder } from '$lib/components/Placeholder.svelte';
 export { default as Timeline } from '$lib/components/Timeline.svelte';
 export { default as TimelineEvent } from '$lib/components/TimelineEvent.svelte';
+export { default as Section } from '$lib/components/util/Section.svelte';
+export { default as Pill } from '$lib/components/util/Pill.svelte';
