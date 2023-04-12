@@ -1,6 +1,5 @@
 <script lang="ts">
-	import Placeholder from '$lib/components/Placeholder.svelte';
-	import Section from '$lib/components/util/Section.svelte';
+	import { Placeholder, Section, FileInput } from '$lib/components';
 	import type { PageData } from './$types';
 	import theme from '$lib/shared/stores/theme';
 
@@ -36,7 +35,9 @@
 					<Placeholder text="Ülesande näide" class="h-20 mb-12 mt-4" />
 				{/each}
 			</div>
-			<Placeholder text="Faili esitamise component" class="mt-24 h-80" />
+			<Section class="mt-24">
+				<FileInput />
+			</Section>
 		</div>
 		<Section class="max-w-md p-6 h-60 {isContrastMode ? 'black-bg' : ''}">
 			<p class="gray-spaced dark:text-yellow-300">ESITUSED</p>

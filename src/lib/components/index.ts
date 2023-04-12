@@ -8,3 +8,4 @@ export { default as Timeline } from '$lib/components/Timeline.svelte';
 export { default as TimelineEvent } from '$lib/components/TimelineEvent.svelte';
 export { default as Section } from '$lib/components/util/Section.svelte';
 export { default as Pill } from '$lib/components/util/Pill.svelte';
+export { default as FileInput } from '$lib/components/FileInput.svelte';
