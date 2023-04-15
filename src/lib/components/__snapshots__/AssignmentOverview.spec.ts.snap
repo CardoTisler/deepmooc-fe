@@ -1,0 +1,110 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AssignmentOverview.svelte > should render component 1`] = `
+<body>
+  <div>
+    <div
+      class="flex flex-col bg-gray-100 rounded-xl lg:h-36 p-2 border-gray-200 border-2 lg:container max-w-xl dark:bg-black dark:border-yellow-300 s-h6UEByFqc3Iq"
+    >
+      <div
+        class="flex flex-col lg:flex-row justify-between s-h6UEByFqc3Iq"
+      >
+        <div
+          class=" s-h6UEByFqc3Iq"
+        >
+          <p
+            class="s-h6UEByFqc3Iq"
+          >
+            TEST TOPIC
+          </p>
+        </div>
+         
+        <div
+          class="flex flex-row justify-start lg:justify-end s-h6UEByFqc3Iq"
+        >
+          <div
+            class="mx-1 s-h6UEByFqc3Iq"
+          >
+            <div
+              class="rounded-full bg-gray-200 px-2 dark:bg-black "
+            >
+              <span
+                class="text-gray-600 dark:text-yellow-300"
+              >
+                test tag
+              </span>
+            </div>
+            <!--&lt;Pill&gt;-->
+             
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="w-full py-2 s-h6UEByFqc3Iq"
+      >
+        <p
+          class="text-xl font-bold s-h6UEByFqc3Iq"
+        >
+          TEST TITLE
+        </p>
+      </div>
+       
+      <div
+        class="flex flex-row w-full justify-between pt-3 s-h6UEByFqc3Iq"
+      >
+        <div
+          class="flex flex-col s-h6UEByFqc3Iq"
+        >
+          <p
+            class="font-bold s-h6UEByFqc3Iq"
+          >
+            00:00:00
+          </p>
+           
+          <p
+            class="font-thin s-h6UEByFqc3Iq"
+          >
+            01.01.1970
+          </p>
+        </div>
+         
+        <div
+          class="flex items-center s-h6UEByFqc3Iq"
+        >
+          <a
+            class="bg-primary-200 text-white hover:bg-primary-300 rounded-sm p-2 flex flex-row dark:bg-black dark:border-2 dark:border-yellow-300 dark:bg-gray-900 hover:dark:bg-black s-h6UEByFqc3Iq"
+            href="/courses/0/assignments/1"
+          >
+            <span
+              class="dark:text-yellow-300 s-h6UEByFqc3Iq"
+            >
+              Lahenda
+            </span>
+             
+            <span
+              class="pl-2 s-h6UEByFqc3Iq"
+            >
+              <svg
+                clip-rule="evenodd"
+                fill="white"
+                fill-rule="evenodd"
+                height="24"
+                stroke="white"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"
+                />
+              </svg>
+              <!--&lt;RightArrow&gt;-->
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--&lt;AssignmentOverview&gt;-->
+  </div>
+</body>
+`;

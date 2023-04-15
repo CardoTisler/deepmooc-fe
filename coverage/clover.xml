@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1681421302423" clover="3.2.0">
-  <project timestamp="1681421302423" name="All files">
-    <metrics statements="408" coveredstatements="400" conditionals="5" coveredconditionals="2" methods="11" coveredmethods="1" elements="424" coveredelements="403" complexity="0" loc="408" ncloc="408" packages="4" files="14" classes="14"/>
+<coverage generated="1681557029577" clover="3.2.0">
+  <project timestamp="1681557029577" name="All files">
+    <metrics statements="448" coveredstatements="440" conditionals="19" coveredconditionals="5" methods="11" coveredmethods="4" elements="478" coveredelements="449" complexity="0" loc="448" ncloc="448" packages="5" files="16" classes="16"/>
     <package name="components">
-      <metrics statements="343" coveredstatements="343" conditionals="2" coveredconditionals="1" methods="11" coveredmethods="1"/>
-      <file name="AccessibilityModal.svelte" path="/home/cardo/git/ut/deepmooc-fe/src/lib/components/AccessibilityModal.svelte">
+      <metrics statements="343" coveredstatements="343" conditionals="15" coveredconditionals="4" methods="11" coveredmethods="4"/>
+      <file name="AccessibilityModal.svelte" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/AccessibilityModal.svelte">
         <metrics statements="59" coveredstatements="59" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -66,8 +66,8 @@
         <line num="58" count="1" type="stmt"/>
         <line num="59" count="1" type="stmt"/>
       </file>
-      <file name="AssignmentOverview.svelte" path="/home/cardo/git/ut/deepmooc-fe/src/lib/components/AssignmentOverview.svelte">
-        <metrics statements="55" coveredstatements="55" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="AssignmentOverview.svelte" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/AssignmentOverview.svelte">
+        <metrics statements="55" coveredstatements="55" conditionals="3" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -101,7 +101,7 @@
         <line num="31" count="1" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
         <line num="33" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
+        <line num="34" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="35" count="1" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
         <line num="37" count="1" type="stmt"/>
@@ -110,7 +110,7 @@
         <line num="40" count="1" type="stmt"/>
         <line num="41" count="1" type="stmt"/>
         <line num="42" count="1" type="stmt"/>
-        <line num="43" count="1" type="stmt"/>
+        <line num="43" count="1" type="cond" truecount="0" falsecount="2"/>
         <line num="44" count="1" type="stmt"/>
         <line num="45" count="1" type="stmt"/>
         <line num="46" count="1" type="stmt"/>
@@ -124,8 +124,8 @@
         <line num="54" count="1" type="stmt"/>
         <line num="55" count="1" type="stmt"/>
       </file>
-      <file name="CourseOverview.svelte" path="/home/cardo/git/ut/deepmooc-fe/src/lib/components/CourseOverview.svelte">
-        <metrics statements="39" coveredstatements="39" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="CourseOverview.svelte" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/CourseOverview.svelte">
+        <metrics statements="39" coveredstatements="39" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -142,7 +142,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="17" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="18" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
@@ -166,7 +166,7 @@
         <line num="38" count="1" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
       </file>
-      <file name="CourseTopic.svelte" path="/home/cardo/git/ut/deepmooc-fe/src/lib/components/CourseTopic.svelte">
+      <file name="CourseTopic.svelte" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/CourseTopic.svelte">
         <metrics statements="25" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -194,7 +194,7 @@
         <line num="24" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
       </file>
-      <file name="FileInput.svelte" path="/home/cardo/git/ut/deepmooc-fe/src/lib/components/FileInput.svelte">
+      <file name="FileInput.svelte" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/FileInput.svelte">
         <metrics statements="42" coveredstatements="42" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -239,8 +239,8 @@
         <line num="41" count="1" type="stmt"/>
         <line num="42" count="1" type="stmt"/>
       </file>
-      <file name="Leaderboard.svelte" path="/home/cardo/git/ut/deepmooc-fe/src/lib/components/Leaderboard.svelte">
-        <metrics statements="37" coveredstatements="37" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Leaderboard.svelte" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/Leaderboard.svelte">
+        <metrics statements="37" coveredstatements="37" conditionals="3" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -253,9 +253,9 @@
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="13" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="14" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="16" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
@@ -279,7 +279,7 @@
         <line num="36" count="1" type="stmt"/>
         <line num="37" count="1" type="stmt"/>
       </file>
-      <file name="Placeholder.svelte" path="/home/cardo/git/ut/deepmooc-fe/src/lib/components/Placeholder.svelte">
+      <file name="Placeholder.svelte" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/Placeholder.svelte">
         <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -296,8 +296,8 @@
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="Timeline.svelte" path="/home/cardo/git/ut/deepmooc-fe/src/lib/components/Timeline.svelte">
-        <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Timeline.svelte" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/Timeline.svelte">
+        <metrics statements="18" coveredstatements="18" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -308,7 +308,7 @@
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
+        <line num="11" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
@@ -317,8 +317,8 @@
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
       </file>
-      <file name="TimelineEvent.svelte" path="/home/cardo/git/ut/deepmooc-fe/src/lib/components/TimelineEvent.svelte">
-        <metrics statements="43" coveredstatements="43" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="TimelineEvent.svelte" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/TimelineEvent.svelte">
+        <metrics statements="43" coveredstatements="43" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -340,7 +340,7 @@
         <line num="19" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
+        <line num="22" count="1" type="cond" truecount="0" falsecount="2"/>
         <line num="23" count="1" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
@@ -363,13 +363,13 @@
         <line num="42" count="1" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
       </file>
-      <file name="index.ts" path="/home/cardo/git/ut/deepmooc-fe/src/lib/components/index.ts">
-        <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="11" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/index.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="11" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
+        <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
@@ -378,9 +378,58 @@
         <line num="11" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="components.common">
+      <metrics statements="29" coveredstatements="29" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Header.svelte" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/common/Header.svelte">
+        <metrics statements="29" coveredstatements="29" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="components.icons">
-      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="RightArrow.svelte" path="/home/cardo/git/ut/deepmooc-fe/src/lib/components/icons/RightArrow.svelte">
+      <metrics statements="28" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="ProfileIcon.svelte" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/icons/ProfileIcon.svelte">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="RightArrow.svelte" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/icons/RightArrow.svelte">
         <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -403,7 +452,7 @@
     </package>
     <package name="components.util">
       <metrics statements="27" coveredstatements="27" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="Pill.svelte" path="/home/cardo/git/ut/deepmooc-fe/src/lib/components/util/Pill.svelte">
+      <file name="Pill.svelte" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/util/Pill.svelte">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -415,7 +464,7 @@
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
       </file>
-      <file name="Section.svelte" path="/home/cardo/git/ut/deepmooc-fe/src/lib/components/util/Section.svelte">
+      <file name="Section.svelte" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/components/util/Section.svelte">
         <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -439,7 +488,7 @@
     </package>
     <package name="shared.stores">
       <metrics statements="21" coveredstatements="13" conditionals="3" coveredconditionals="1" methods="0" coveredmethods="0"/>
-      <file name="theme.ts" path="/home/cardo/git/ut/deepmooc-fe/src/lib/shared/stores/theme.ts">
+      <file name="theme.ts" path="/Users/cardotisler/git/ut/deepmooc-fe/src/lib/shared/stores/theme.ts">
         <metrics statements="21" coveredstatements="13" conditionals="3" coveredconditionals="1" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -450,7 +499,7 @@
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="10" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="10" count="7" type="cond" truecount="0" falsecount="1"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
@@ -459,7 +508,7 @@
         <line num="16" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
       </file>

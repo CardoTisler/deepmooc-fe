@@ -1,0 +1,118 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TimelineEvent.svelte > should render component 1`] = `
+<body>
+  <div>
+    <div
+      class="flex flex-col p-2 dark:text-yellow-300"
+    >
+      <div
+        class="flex flex-row"
+      >
+        <p
+          class="text-xs"
+        >
+          ◯
+        </p>
+         
+        <div
+          class="flex flex-row pl-3 w-full justify-between"
+        >
+          <div>
+            <h3>
+              TEST TITLE
+            </h3>
+          </div>
+           
+          <div>
+            <svg
+              clip-rule="evenodd"
+              fill="black"
+              fill-rule="evenodd"
+              height="24"
+              stroke="black"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"
+              />
+            </svg>
+            <!--&lt;RightArrow&gt;-->
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="flex flex-col border-l-2 border-black pl-8"
+      >
+        <div>
+          <p
+            class="gray-spaced dark:text-yellow-300"
+          >
+            TEST SUBTITLE
+          </p>
+        </div>
+         
+        <div
+          class="flex flex-row"
+        >
+          <div
+            class="rounded-full bg-gray-200 px-2 dark:bg-black mr-2 h-fit"
+          >
+            <span
+              class="text-gray-600 dark:text-yellow-300"
+            >
+              TEST TAG
+            </span>
+          </div>
+          <!--&lt;Pill&gt;-->
+        </div>
+         
+        <div
+          class="grid grid-cols-2 pt-4"
+        >
+          <div
+            class="pb-2"
+          >
+            <p
+              class="gray-spaced dark:text-yellow-300"
+            >
+              TÄHTAEG
+            </p>
+          </div>
+           
+          <div>
+            <p
+              class="gray-spaced dark:text-yellow-300"
+            >
+              AEGA JÄÄNUD
+            </p>
+          </div>
+           
+          <div>
+            <p
+              class="font-medium"
+            >
+              00:00:00
+            </p>
+          </div>
+           
+          <div>
+            <p
+              class="font-medium"
+            >
+              10h
+            </p>
+          </div>
+           
+          <div>
+            01.01.1970
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--&lt;TimelineEvent&gt;-->
+  </div>
+</body>
+`;
