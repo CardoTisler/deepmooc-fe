@@ -42,6 +42,7 @@
 				<a
 					class="bg-primary-200 text-white hover:bg-primary-300 rounded-sm p-2 flex flex-row dark:bg-black dark:border-2 dark:border-yellow-300 dark:bg-gray-900 hover:dark:bg-black"
 					href={`/courses/${courseId}/assignments/${assignmentId}`}
+					data-testid={`assignment-${assignmentId}-solve-button`}
 				>
 					<span class="dark:text-yellow-300">Lahenda</span>
 					<span class="pl-2">

@@ -25,7 +25,9 @@
 			<p class="gray-spaced dark:text-yellow-300">{courseCode}</p>
 		</div>
 		<div class="ml-16 lg:ml-0 flex items-center">
-			<a href={`/courses/${courseId}`}><RightArrow fill={'black'} stroke={'black'} /></a>
+			<a href={`/courses/${courseId}`} data-testid={`course-${courseId}`}
+				><RightArrow fill={'black'} stroke={'black'} /></a
+			>
 		</div>
 	</div>
 	<div class="grid grid-cols-1 2xl:grid-cols-2 gap-8">
