@@ -37,7 +37,7 @@ export const actions: Actions = {
 			// throw redirect(303, url.pathname);
 		} catch (err) {
 			console.log(err);
-			throw new Error("Saving file failed.");
+			throw new Error('Saving file failed.');
 		}
 	}
 };

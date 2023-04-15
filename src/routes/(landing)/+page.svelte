@@ -9,7 +9,10 @@
 		<p class="text-gray-600 text-xl pb-16 dark:text-yellow-300">
 			Pole midagi stressirohkemat, kui liiga vähe stressi. Tere tulemast koodipõrgusse.
 		</p>
-		<a href="/main" class="w-28 text-white flex flex-row bg-primary-200 hover:bg-primary-300 p-2 rounded-md dark:bg-black dark:border-2 dark:border-yellow-300">
+		<a
+			href="/main"
+			class="w-28 text-white flex flex-row bg-primary-200 hover:bg-primary-300 p-2 rounded-md dark:bg-black dark:border-2 dark:border-yellow-300"
+		>
 			<span class="dark:text-yellow-300">Sisene</span>
 			<span class="ml-3">
 				<RightArrow />

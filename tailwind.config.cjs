@@ -7,13 +7,13 @@ module.exports = {
 			colors: {
 				transparent: 'transparent',
 				current: 'currentColor',
-				'primary': {
+				primary: {
 					100: '#2DF0D3',
 					200: '#1ADBBE',
-					300: '#0DBFA4'	
+					300: '#0DBFA4'
 				}
 			}
-		},
-	},
+		}
+	}
 	// plugins: [require('daisyui')]
 };

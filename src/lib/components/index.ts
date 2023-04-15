@@ -1,4 +1,4 @@
-export { default as AccessibilityModal } from '$lib/components/AccessibilityModal.svelte'
+export { default as AccessibilityModal } from '$lib/components/AccessibilityModal.svelte';
 export { default as AssignmentOverview } from '$lib/components/AssignmentOverview.svelte';
 export { default as CourseOverview } from '$lib/components/CourseOverview.svelte';
 export { default as CourseTopic } from '$lib/components/CourseTopic.svelte';

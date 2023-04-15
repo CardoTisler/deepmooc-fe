@@ -19,7 +19,10 @@
 			</div>
 			<div>
 				<!-- TODO: Make it thinner -->
-				<RightArrow stroke={`${isContrastMode ? 'yellow' : 'black'}`} fill={`${isContrastMode ? 'yellow' : 'black'}`} />
+				<RightArrow
+					stroke={`${isContrastMode ? 'yellow' : 'black'}`}
+					fill={`${isContrastMode ? 'yellow' : 'black'}`}
+				/>
 			</div>
 		</div>
 	</div>

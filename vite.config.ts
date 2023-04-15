@@ -7,6 +7,6 @@ export default defineConfig({
 		include: ['src/**/*.{test,spec}.{js,ts}'],
 		globals: true,
 		environment: 'jsdom',
-		deps: { inline: ['@sveltejs/kit'] },
+		deps: { inline: ['@sveltejs/kit'] }
 	}
 });

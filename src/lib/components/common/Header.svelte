@@ -6,7 +6,11 @@
 	$: isContrastMode = $theme === 'contrast';
 </script>
 
-<header class="bg-white shadow-md mb-2 {isContrastMode ? 'black-bg' : ''} dark:border-b-2 dark:border-b-yellow-300">
+<header
+	class="bg-white shadow-md mb-2 {isContrastMode
+		? 'black-bg'
+		: ''} dark:border-b-2 dark:border-b-yellow-300"
+>
 	<div class="flex flex-row justify-between px-20 dark:border-b-yellow-300">
 		<a href="/main" class="w-64 pl-4"><Placeholder text="Logo" class="h-full" /></a>
 

@@ -11,7 +11,9 @@
 </script>
 
 <!-- TODO: Need to accept and handle courseId for redirecting to courses/:courseId/assignments/:assignmentId -->
-<div class="flex flex-col bg-gray-100 rounded-xl lg:h-36 p-2 border-gray-200 border-2 lg:container max-w-xl dark:bg-black dark:border-yellow-300">
+<div
+	class="flex flex-col bg-gray-100 rounded-xl lg:h-36 p-2 border-gray-200 border-2 max-w-xl dark:bg-black dark:border-yellow-300"
+>
 	<div class="flex flex-col lg:flex-row justify-between">
 		<div class=""><p>{topic}</p></div>
 		<div class="flex flex-row justify-start lg:justify-end">
@@ -32,7 +34,10 @@
 		</div>
 		<div class="flex items-center">
 			{#if completed}
-				<button class="border border-gray-700 text-gray-600 p-2 rounded-sm disabled dark:bg-gray-900"><span class="dark:text-yellow-300">Lahendatud</span></button>
+				<button
+					class="border border-gray-700 text-gray-600 p-2 rounded-sm disabled dark:bg-gray-900"
+					><span class="dark:text-yellow-300">Lahendatud</span></button
+				>
 			{:else}
 				<a
 					class="bg-primary-200 text-white hover:bg-primary-300 rounded-sm p-2 flex flex-row dark:bg-black dark:border-2 dark:border-yellow-300 dark:bg-gray-900 hover:dark:bg-black"
@@ -40,7 +45,10 @@
 				>
 					<span class="dark:text-yellow-300">Lahenda</span>
 					<span class="pl-2">
-						<RightArrow fill={`${isContrastMode ? 'yellow' : 'white'}`} stroke={`${isContrastMode ? 'yellow' : 'white'}`}/>
+						<RightArrow
+							fill={`${isContrastMode ? 'yellow' : 'white'}`}
+							stroke={`${isContrastMode ? 'yellow' : 'white'}`}
+						/>
 					</span>
 				</a>
 			{/if}
@@ -48,8 +56,4 @@
 	</div>
 </div>
 
-<style>
-	.container {
-		min-width: 360px;
-	}
-</style>
+<style></style>

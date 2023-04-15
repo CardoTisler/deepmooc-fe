@@ -14,7 +14,11 @@
 	const { courseId, courseName, courseCode, leaderboardRows: rows, nextAssignment } = data;
 </script>
 
-<Section class={`p-8 grid grid-cols-1 gap-4 lg:gap-10 max-w-2xl lg:max-w-5xl lg:min-w-lg ${isContrastMode ? 'black-bg' : ''} ${style}`}>
+<Section
+	class={`p-8 grid grid-cols-1 gap-4 lg:gap-10 max-w-2xl lg:max-w-5xl lg:min-w-lg ${
+		isContrastMode ? 'black-bg' : ''
+	} ${style}`}
+>
 	<div class="flex flex-row justify-between">
 		<div>
 			<h2 class="dark:text-yellow-300">{courseName}</h2>

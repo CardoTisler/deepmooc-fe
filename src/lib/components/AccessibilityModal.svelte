@@ -41,9 +41,11 @@
 			<h3 class="dark:text-yellow-300">Kontrast</h3>
 			<br />
 			<div class="flex flex-row w-full xl:w-1/2 justify-between">
+				<!-- svelte-ignore a11y-autofocus -->
 				<button
 					class="text-xl border-2 border-primary-200 rounded-xl py-2 px-3 hover:bg-primary-200 dark:text-yellow-300 dark:border-yellow-300 dark:hover:bg-gray-900 focus:border-blue-600 focus:first"
-					on:click={enableLightMode} autofocus>Tava sätted</button
+					on:click={enableLightMode}
+					autofocus>Tava sätted</button
 				>
 				<button
 					class="text-xl focus:border-2 bg-gray-800 text-white rounded-xl py-2 px-3 focus:border-blue-600 hover:bg-gray-900 dark:text-yellow-300"
