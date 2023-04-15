@@ -4,26 +4,24 @@ exports[`AssignmentOverview.svelte > should render component 1`] = `
 <body>
   <div>
     <div
-      class="flex flex-col bg-gray-100 rounded-xl lg:h-36 p-2 border-gray-200 border-2 lg:container max-w-xl dark:bg-black dark:border-yellow-300 s-h6UEByFqc3Iq"
+      class="flex flex-col bg-gray-100 rounded-xl lg:h-36 p-2 border-gray-200 border-2 max-w-xl dark:bg-black dark:border-yellow-300"
     >
       <div
-        class="flex flex-col lg:flex-row justify-between s-h6UEByFqc3Iq"
+        class="flex flex-col lg:flex-row justify-between"
       >
         <div
-          class=" s-h6UEByFqc3Iq"
+          class=""
         >
-          <p
-            class="s-h6UEByFqc3Iq"
-          >
+          <p>
             TEST TOPIC
           </p>
         </div>
          
         <div
-          class="flex flex-row justify-start lg:justify-end s-h6UEByFqc3Iq"
+          class="flex flex-row justify-start lg:justify-end"
         >
           <div
-            class="mx-1 s-h6UEByFqc3Iq"
+            class="mx-1"
           >
             <div
               class="rounded-full bg-gray-200 px-2 dark:bg-black "
@@ -41,49 +39,50 @@ exports[`AssignmentOverview.svelte > should render component 1`] = `
       </div>
        
       <div
-        class="w-full py-2 s-h6UEByFqc3Iq"
+        class="w-full py-2"
       >
         <p
-          class="text-xl font-bold s-h6UEByFqc3Iq"
+          class="text-xl font-bold"
         >
           TEST TITLE
         </p>
       </div>
        
       <div
-        class="flex flex-row w-full justify-between pt-3 s-h6UEByFqc3Iq"
+        class="flex flex-row w-full justify-between pt-3"
       >
         <div
-          class="flex flex-col s-h6UEByFqc3Iq"
+          class="flex flex-col"
         >
           <p
-            class="font-bold s-h6UEByFqc3Iq"
+            class="font-bold"
           >
             00:00:00
           </p>
            
           <p
-            class="font-thin s-h6UEByFqc3Iq"
+            class="font-thin"
           >
             01.01.1970
           </p>
         </div>
          
         <div
-          class="flex items-center s-h6UEByFqc3Iq"
+          class="flex items-center"
         >
           <a
-            class="bg-primary-200 text-white hover:bg-primary-300 rounded-sm p-2 flex flex-row dark:bg-black dark:border-2 dark:border-yellow-300 dark:bg-gray-900 hover:dark:bg-black s-h6UEByFqc3Iq"
+            class="bg-primary-200 text-white hover:bg-primary-300 rounded-sm p-2 flex flex-row dark:bg-black dark:border-2 dark:border-yellow-300 dark:bg-gray-900 hover:dark:bg-black"
+            data-testid="assignment-1-solve-button"
             href="/courses/0/assignments/1"
           >
             <span
-              class="dark:text-yellow-300 s-h6UEByFqc3Iq"
+              class="dark:text-yellow-300"
             >
               Lahenda
             </span>
              
             <span
-              class="pl-2 s-h6UEByFqc3Iq"
+              class="pl-2"
             >
               <svg
                 clip-rule="evenodd"

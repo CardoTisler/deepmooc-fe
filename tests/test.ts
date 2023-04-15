@@ -22,4 +22,3 @@ test('Test entire page flow, landing page -> main page -> course overview -> ass
 
 	expect(true);
 });
-

@@ -7,22 +7,17 @@ exports[`Header.svelte > should render component 1`] = `
       class="bg-white shadow-md mb-2  dark:border-b-2 dark:border-b-yellow-300 s-TTyPr9WmAsat"
     >
       <div
-        class="flex flex-row justify-between px-20 dark:border-b-yellow-300 s-TTyPr9WmAsat"
+        class="flex flex-row justify-between header dark:border-b-yellow-300 s-TTyPr9WmAsat"
       >
         <a
           class="w-64 pl-4 s-TTyPr9WmAsat"
           href="/main"
         >
-          <div
-            class="flex flex-col w-full border-dashed border-2 border-purple-400 rounded-xl text-center text-purple-400 align-center justify-center h-full s-zx22-0jGvulc"
-          >
-            <p
-              class="justify-center s-zx22-0jGvulc"
-            >
-              Logo
-            </p>
-          </div>
-          <!--&lt;Placeholder&gt;-->
+          <img
+            alt="Tooru logo"
+            class="s-TTyPr9WmAsat"
+            src="/tooru_logo.png"
+          />
         </a>
          
         <div

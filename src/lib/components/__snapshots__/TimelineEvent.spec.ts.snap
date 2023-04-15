@@ -9,12 +9,6 @@ exports[`TimelineEvent.svelte > should render component 1`] = `
       <div
         class="flex flex-row"
       >
-        <p
-          class="text-xs"
-        >
-          ◯
-        </p>
-         
         <div
           class="flex flex-row pl-3 w-full justify-between"
         >
@@ -25,26 +19,30 @@ exports[`TimelineEvent.svelte > should render component 1`] = `
           </div>
            
           <div>
-            <svg
-              clip-rule="evenodd"
-              fill="black"
-              fill-rule="evenodd"
-              height="24"
-              stroke="black"
-              width="24"
-              xmlns="http://www.w3.org/2000/svg"
+            <a
+              href="/courses/undefined/assignments/undefined"
             >
-              <path
-                d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"
-              />
-            </svg>
-            <!--&lt;RightArrow&gt;-->
+              <svg
+                clip-rule="evenodd"
+                fill="black"
+                fill-rule="evenodd"
+                height="24"
+                stroke="black"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"
+                />
+              </svg>
+              <!--&lt;RightArrow&gt;-->
+            </a>
           </div>
         </div>
       </div>
        
       <div
-        class="flex flex-col border-l-2 border-black pl-8"
+        class="flex flex-col border-l border-gray-400 pl-8"
       >
         <div>
           <p

@@ -1,7 +1,7 @@
 module.exports = {
 	root: true,
 	rules: {
-		"css-unused-selector": "off",
+		'css-unused-selector': 'off'
 	},
 	parser: '@typescript-eslint/parser',
 	extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'prettier'],
@@ -19,5 +19,5 @@ module.exports = {
 		browser: true,
 		es2017: true,
 		node: true
-	},
+	}
 };
