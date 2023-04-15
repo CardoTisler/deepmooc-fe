@@ -14,7 +14,7 @@
 <div class="landing flex flex-col {isContrastMode ? 'black-bg' : ''}">
 	<div class="h-16 lg:w-1/2 flex flex-row justify-between shadow-sm">
 		<div class="w-64 h-full">
-			<a href="/" class="w-8"><Placeholder text="Logo" class="h-full" /></a>
+			<a href="/" class="w-8"><img src="/tooru_logo.png" alt="Tooru logo" /></a>
 		</div>
 		<div class="self-center mr-2">
 			<button

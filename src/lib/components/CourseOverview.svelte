@@ -10,7 +10,6 @@
 	export { style as class };
 
 	export let data: CourseOverviewData;
-	// TODO: Should leaderboard data be requested via courseId?
 	const { courseId, courseName, courseCode, leaderboardRows: rows, nextAssignment } = data;
 </script>
 

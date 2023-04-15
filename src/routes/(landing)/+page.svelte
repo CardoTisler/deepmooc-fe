@@ -1,5 +1,8 @@
 <script lang="ts">
 	import RightArrow from '$lib/components/icons/RightArrow.svelte';
+	import theme from '$lib/shared/stores/theme';
+
+	$: isContrastMode = $theme === 'contrast';
 </script>
 
 <div class="content grid grid-cols-1 dark:bg-black justify-end lg:w-1/2">
@@ -12,10 +15,14 @@
 		<a
 			href="/main"
 			class="w-28 text-white flex flex-row bg-primary-200 hover:bg-primary-300 p-2 rounded-md dark:bg-black dark:border-2 dark:border-yellow-300"
+			tabindex="0"
 		>
 			<span class="dark:text-yellow-300">Sisene</span>
 			<span class="ml-3">
-				<RightArrow />
+				<RightArrow
+					fill={isContrastMode ? 'yellow' : 'white'}
+					stroke={isContrastMode ? 'yellow' : 'white'}
+				/>
 			</span>
 		</a>
 	</div>

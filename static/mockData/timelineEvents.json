@@ -7,7 +7,9 @@
 			"deadlineTime": "21:00",
 			"deadlineDate": "12.02.2023",
 			"timeRemaining": "3 päeva ja 8 tundi",
-			"tags": ["lihtne", "7 punkti"]
+			"tags": ["lihtne", "7 punkti"],
+			"assignmentId": 100,
+			"courseId": 187243
 		},
 		{
 			"title": "1.2 Parameetrid",
@@ -15,7 +17,9 @@
 			"deadlineTime": "23:59",
 			"deadlineDate": "16.02.2023",
 			"timeRemaining": "11 päeva ja 13 tundi",
-			"tags": ["keeruline", "10 punkti"]
+			"tags": ["keeruline", "10 punkti"],
+			"assignmentId": 101,
+			"courseId": 111782
 		},
 		{
 			"title": "7.1 Kolmikpuu unustamine",
@@ -23,7 +27,9 @@
 			"deadlineTime": "23:59",
 			"deadlineDate": "16.02.2023",
 			"timeRemaining": "11 päeva ja 13 tundi",
-			"tags": ["keeruline", "10 punkti"]
+			"tags": ["keeruline", "10 punkti"],
+			"assignmentId": 100,
+			"courseId": 187243
 		}
 	]
 }

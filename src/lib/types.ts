@@ -23,6 +23,8 @@ export interface TimelineEventData {
 	deadlineDate: string;
 	timeRemaining: string;
 	tags: string[];
+	assignmentId: number;
+	courseId: number;
 }
 
 export interface CourseOverviewData {

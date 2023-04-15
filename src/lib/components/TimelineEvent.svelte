@@ -6,27 +6,36 @@
 
 	$: isContrastMode = $theme === 'contrast';
 	export let data: TimelineEventData;
-	const { title, subTitle, deadlineTime, deadlineDate, timeRemaining, tags } = data;
+	const {
+		title,
+		subTitle,
+		deadlineTime,
+		deadlineDate,
+		timeRemaining,
+		tags,
+		assignmentId,
+		courseId
+	} = data;
 </script>
 
 <!-- TODO: Replace side border and HTML circle with appropriate SVG -->
 <div class="flex flex-col p-2 dark:text-yellow-300">
 	<div class="flex flex-row">
-		<p class="text-xs">&#9711;</p>
 		<div class="flex flex-row pl-3 w-full justify-between">
 			<div>
 				<h3>{title}</h3>
 			</div>
 			<div>
-				<!-- TODO: Make it thinner -->
-				<RightArrow
-					stroke={`${isContrastMode ? 'yellow' : 'black'}`}
-					fill={`${isContrastMode ? 'yellow' : 'black'}`}
-				/>
+				<a href={`/courses/${courseId}/assignments/${assignmentId}`}>
+					<RightArrow
+						stroke={`${isContrastMode ? 'yellow' : 'black'}`}
+						fill={`${isContrastMode ? 'yellow' : 'black'}`}
+					/>
+				</a>
 			</div>
 		</div>
 	</div>
-	<div class="flex flex-col border-l-2 border-black pl-8">
+	<div class="flex flex-col border-l border-gray-400 pl-8">
 		<div>
 			<p class="gray-spaced dark:text-yellow-300">{subTitle}</p>
 		</div>

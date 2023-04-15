@@ -25,7 +25,7 @@
 </svelte:head>
 
 <div class="flex flex-col">
-	<div class="bg-white bordered flex h-40 items-end p-3">
+	<div class="bg-white flex h-40 items-end p-3">
 		<div>
 			<p class="flex text-3xl font-bold">{courseName}</p>
 			<p>{courseCode}</p>

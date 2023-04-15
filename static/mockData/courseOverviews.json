@@ -32,7 +32,8 @@
 				"deadlineDate": "12.02.2023",
 				"deadlineTime": "21.00",
 				"tags": ["lihtne", "7 punkti"],
-				"completed": false
+				"completed": false,
+				"courseId": 187243
 			}
 		},
 		{
@@ -66,7 +67,8 @@
 				"deadlineDate": "16.02.2023",
 				"deadlineTime": "23.59",
 				"tags": ["keeruline", "10 punkti"],
-				"completed": true
+				"completed": true,
+				"courseId": 111782
 			}
 		}
 	]
