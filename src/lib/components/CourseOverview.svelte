@@ -25,7 +25,10 @@
 		</div>
 		<div class="ml-16 lg:ml-0 flex items-center">
 			<a href={`/courses/${courseId}`} data-testid={`course-${courseId}`}
-				><RightArrow fill={'black'} stroke={'black'} /></a
+				><RightArrow
+					fill={isContrastMode ? 'yellow' : 'black'}
+					stroke={isContrastMode ? 'yellow' : 'black'}
+				/></a
 			>
 		</div>
 	</div>

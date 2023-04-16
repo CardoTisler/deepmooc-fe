@@ -11,7 +11,9 @@ describe('Timeline.svelte', () => {
 				deadlineTime: '00:00:00',
 				deadlineDate: '01.01.1970',
 				timeRemaining: '10h',
-				tags: ['TEST TAG']
+				tags: ['TEST TAG'],
+				assignmentId: 69,
+				courseId: 169,
 			}
 		];
 

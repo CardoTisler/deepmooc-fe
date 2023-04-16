@@ -12,7 +12,7 @@
 	<meta name="description" content="Deepmooc avaleht" />
 </svelte:head>
 
-<div class="flex flex-col">
+<div class="flex flex-col lg:px-20">
 	<div class="h-40 flex items-end p-3 dark:text-yellow-300">
 		<h1>Avaleht</h1>
 	</div>

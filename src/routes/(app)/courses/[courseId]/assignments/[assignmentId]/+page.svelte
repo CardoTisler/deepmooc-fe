@@ -15,7 +15,7 @@
 	<meta name="description" content="Assignment page" />
 </svelte:head>
 
-<div class="max-w-screen-4xl">
+<div class="max-w-screen-4xl lg:px-20">
 	<div class="h-40 flex items-end p-3 {isContrastMode ? 'black-bg' : ''}">
 		<div>
 			<h1 class="dark:text-yellow-300">{title}</h1>
@@ -44,7 +44,7 @@
 				<FileInput />
 			</Section>
 		</div>
-		<Section class="max-w-3xl p-6 h-80 {isContrastMode ? 'black-bg' : ''}">
+		<Section class="max-w-2xl p-6 h-80 {isContrastMode ? 'black-bg' : ''}">
 			<p class="gray-spaced dark:text-yellow-300">ESITUSED</p>
 		</Section>
 	</div>

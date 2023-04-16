@@ -1,8 +1,9 @@
 <script>
-	import { AccessibilityModal, Placeholder } from '$lib/components';
+	import { AccessibilityModal } from '$lib/components';
 	import '$lib/global.css';
 	import '../styles.css';
 	import theme from '$lib/shared/stores/theme';
+	import Logo from '$lib/components/icons/Logo.svelte';
 	$: isContrastMode = $theme === 'contrast';
 
 	let showAccessibilityMenu = false;
@@ -13,8 +14,8 @@
 
 <div class="landing flex flex-col {isContrastMode ? 'black-bg' : ''}">
 	<div class="h-16 lg:w-1/2 flex flex-row justify-between shadow-sm">
-		<div class="w-64 h-full">
-			<a href="/" class="w-8"><img src="/tooru_logo.png" alt="Tooru logo" /></a>
+		<div class="w-32 h-full">
+			<a href="/" class=""><Logo fill={isContrastMode ? 'yellow' : 'black'} /></a>
 		</div>
 		<div class="self-center mr-2">
 			<button
