@@ -13,7 +13,7 @@ describe('Timeline.svelte', () => {
 				timeRemaining: '10h',
 				tags: ['TEST TAG'],
 				assignmentId: 69,
-				courseId: 169,
+				courseId: 169
 			}
 		];
 
