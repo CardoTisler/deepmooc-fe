@@ -31,7 +31,7 @@ exports[`Timeline.svelte > should render component 1`] = `
              
             <div>
               <a
-                href="/courses/undefined/assignments/undefined"
+                href="/courses/169/assignments/69"
               >
                 <svg
                   clip-rule="evenodd"

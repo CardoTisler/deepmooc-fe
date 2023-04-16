@@ -6,9 +6,10 @@
 </script>
 
 <div class="w-fit h-80 flex items-center justify-center dark:bg-black">
-	<Section class="w-fit p-4 {isContrastMode ? 'black-bg' : ''}">
+	<Section class="w-fit p-4 {isContrastMode ? 'black-bg' : ''} focus:border-2 focus:border-primary-100">
 		<form action="?/assignment" method="POST" enctype="multipart/form-data">
-			<label for="file-upload" class={isContrastMode ? 'label-bg-yellow' : 'label-bg-black'}
+			<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+			<label for="file-upload" tabindex="0" class="{isContrastMode ? 'label-bg-yellow' : 'label-bg-black'} focus:border-primary-100"
 				>Upload file</label
 			>
 			<input
@@ -31,10 +32,6 @@
 			{/if}
 		</form>
 	</Section>
-
-	<!-- <Section class="w-1/2 p-4 h-fit">
-
-    </Section> -->
 </div>
 
 <style>

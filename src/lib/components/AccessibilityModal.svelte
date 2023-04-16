@@ -16,7 +16,7 @@
 	<div class="flex flex-col">
 		<div class="flex justify-end">
 			<!-- TODO: Replace with X icon -->
-			<button class="p-2 focus:border-2 focus:border-blue-600" on:click={toggleMenu}>X</button>
+			<button class="p-2 focus:border-2 focus:border-blue-600 dark:text-yellow-300" on:click={toggleMenu}>X</button>
 		</div>
 		<div>
 			<h3 class="dark:text-yellow-300">Juurdepääsetavus</h3>

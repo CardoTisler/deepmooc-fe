@@ -5,6 +5,11 @@
 	$: isContrastMode = $theme === 'contrast';
 </script>
 
+<svelte:head>
+	<title>Tooru</title>
+	<meta name="description" content="Tooru landing page" />
+</svelte:head>
+
 <div class="content grid grid-cols-1 dark:bg-black justify-end lg:w-1/2">
 	<div />
 	<div class="lg:w-1/2 pl-16 h-1/2">

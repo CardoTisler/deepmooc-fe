@@ -13,7 +13,7 @@ exports[`AccessibilityModal.svelte > should render component 1`] = `
           class="flex justify-end s-dFbO1oczX-LX"
         >
           <button
-            class="p-2 focus:border-2 focus:border-blue-600 s-dFbO1oczX-LX"
+            class="p-2 focus:border-2 focus:border-blue-600 dark:text-yellow-300 s-dFbO1oczX-LX"
           >
             X
           </button>
