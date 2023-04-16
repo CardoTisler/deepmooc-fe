@@ -40,7 +40,7 @@
 					</div>
 				{/each}
 			</div>
-			<Section class="mt-24 flex justify-center">
+			<Section class="mt-24 flex justify-center dark:bg-black">
 				<FileInput />
 			</Section>
 		</div>

@@ -7,7 +7,9 @@
 	import { Leaderboard } from '$lib/components';
 	import { exampleLeaderboardRows } from '$lib/util/consts';
 	export let data: PageData;
+	import theme from '$lib/shared/stores/theme';
 
+	$: isContrastMode = $theme === 'contrast';
 	const {
 		courseInfo: { courseName, courseCode, topicsList }
 	} = data;
@@ -27,30 +29,30 @@
 <div class="flex flex-col lg:px-20">
 	<div class="flex h-40 items-end p-3">
 		<div>
-			<p class="flex text-3xl font-bold">{courseName}</p>
-			<p>{courseCode}</p>
+			<h1 class="dark:text-yellow-300">{courseName}</h1>
+			<p class="text-lg dark:text-yellow-300">{courseCode}</p>
 		</div>
 	</div>
 
-	<div class="flex flex-row">
+	<div class="flex flex-row dark:text-yellow-300">
 		<div class="flex flex-col">
 			{#each topicsList as topic}
-				<CourseTopic data={topic} class="mb-12" />
+				<CourseTopic data={topic} class="mb-12 {isContrastMode ? 'black-bg' : ''}" />
 			{/each}
 		</div>
 
-		<Section class="flex flex-col max-w-md ml-12 p-6 h-fit">
+		<Section class="flex flex-col max-w-md ml-12 p-6 h-fit {isContrastMode ? 'black-bg' : ''}">
 			<div class="flex flex-col">
 				<div class="flex flex-row justify-between">
-					<p class="gray-spaced">EDETABEL</p>
+					<p class="gray-spaced dark:text-yellow-300">EDETABEL</p>
 					<button on:click={() => alert('Dont know where to go')}>
-						<RightArrow stroke="text-gray-600" fill="text-gray-600" />
+						<RightArrow stroke={isContrastMode ? "yellow" : "text-gray-600"} fill={isContrastMode ? "yellow" : "text-gray-600"}/>
 					</button>
 				</div>
 				<Leaderboard rows={exampleLeaderboardRows} class="mt-6" />
 			</div>
 			<div class="flex flex-col">
-				<p class="gray-spaced py-6">AKTIIVSED EDETABELID</p>
+				<p class="gray-spaced py-6 dark:text-yellow-300">AKTIIVSED EDETABELID</p>
 				{#each activeLeaderboards as leaderboardRows}
 					<Leaderboard rows={leaderboardRows} class="my-2" />
 				{/each}

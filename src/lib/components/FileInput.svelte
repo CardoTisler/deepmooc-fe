@@ -5,7 +5,7 @@
 	let hasSelectedFile = false;
 </script>
 
-<div class="w-fit h-80 flex items-center justify-center dark:bg-black">
+<div class="w-fit h-80 flex items-center justify-center">
 	<Section class="w-fit p-4 {isContrastMode ? 'black-bg' : ''} focus:border-2 focus:border-primary-100">
 		<form action="?/assignment" method="POST" enctype="multipart/form-data">
 			<!-- svelte-ignore a11y-no-noninteractive-tabindex -->

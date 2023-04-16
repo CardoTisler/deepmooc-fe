@@ -35,7 +35,7 @@
 		<div class="flex items-center">
 			{#if completed}
 				<button
-					class="border border-gray-700 text-gray-600 p-2 rounded-sm disabled dark:bg-gray-900"
+					class="border border-gray-700 text-gray-600 p-2 rounded-sm disabled dark:bg-black"
 					><span class="dark:text-yellow-300">Lahendatud</span></button
 				>
 			{:else}
