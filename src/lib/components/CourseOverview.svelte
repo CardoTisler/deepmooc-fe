@@ -18,13 +18,13 @@
 		isContrastMode ? 'black-bg' : ''
 	} ${style}`}
 >
-	<div class="flex flex-row justify-between">
+	<div class="flex flex-row justify-between" aria-label={`Kursuse ${courseName} ülevaade`}>
 		<div>
 			<h2 class="dark:text-yellow-300">{courseName}</h2>
-			<p class="gray-spaced dark:text-yellow-300">{courseCode}</p>
+			<p class="gray-spaced dark:text-yellow-300" aria-label={`Kursuse kood: ${courseCode}`}>{courseCode}</p>
 		</div>
 		<div class="ml-16 lg:ml-0 flex items-center">
-			<a href={`/courses/${courseId}`} data-testid={`course-${courseId}`}
+			<a href={`/courses/${courseId}`} data-testid={`course-${courseId}`} aria-label={`Sisene kursusele ${courseName}`}
 				><RightArrow
 					fill={isContrastMode ? 'yellow' : 'black'}
 					stroke={isContrastMode ? 'yellow' : 'black'}
@@ -34,12 +34,12 @@
 	</div>
 	<div class="grid grid-cols-1 2xl:grid-cols-2 gap-8">
 		<!-- TODO: What if there is no leaderboard? -->
-		<div class="flex flex-col dark:text-yellow-300 dark:bg-black">
+		<div class="flex flex-col dark:text-yellow-300 dark:bg-black" aria-label="Edetabeli komponent">
 			<p>EDETABEL</p>
 			<Leaderboard {rows} />
 		</div>
 		<!-- TODO: What if there is no next assignment? -->
-		<div class="flex flex-col dark:text-yellow-300">
+		<div class="flex flex-col dark:text-yellow-300" aria-label="Järgmise ülesande komponent">
 			<p>JÄRGMINE ÜLESANNE</p>
 			<AssignmentOverview data={nextAssignment} />
 		</div>

@@ -29,13 +29,13 @@
 <div class="flex flex-col lg:px-20">
 	<div class="flex h-40 items-end p-3">
 		<div>
-			<h1 class="dark:text-yellow-300">{courseName}</h1>
-			<p class="text-lg dark:text-yellow-300">{courseCode}</p>
+			<h1 class="dark:text-yellow-300" aria-label="Kursuse nimi">{courseName}</h1>
+			<p class="text-lg dark:text-yellow-300" aria-label="Kursuse ainekood">{courseCode}</p>
 		</div>
 	</div>
 
 	<div class="flex flex-row dark:text-yellow-300">
-		<div class="flex flex-col">
+		<div class="flex flex-col" aria-label="Kursusel käsitletavad teemad">
 			{#each topicsList as topic}
 				<CourseTopic data={topic} class="mb-12 {isContrastMode ? 'black-bg' : ''}" />
 			{/each}

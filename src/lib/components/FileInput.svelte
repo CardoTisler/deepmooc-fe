@@ -9,7 +9,7 @@
 	<Section class="w-fit p-4 {isContrastMode ? 'black-bg' : ''} focus:border-2 focus:border-primary-100">
 		<form action="?/assignment" method="POST" enctype="multipart/form-data">
 			<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-			<label for="file-upload" tabindex="0" class="{isContrastMode ? 'label-bg-yellow' : 'label-bg-black'} focus:border-primary-100"
+			<label for="file-upload" tabindex="0" class="{isContrastMode ? 'label-bg-yellow' : 'label-bg-black'} focus:border-primary-100" aria-label="Vali fail üleslaadimiseks"
 				>Upload file</label
 			>
 			<input
@@ -26,6 +26,7 @@
 				<button
 					type="submit"
 					class="bg-primary-200 border hover:bg-primary-300 py-2 px-3 rounded-md dark:bg-black dark:text-yellow-300 dark:border-yellow-300 dark:hover:bg-gray-700"
+					aria-label="Lae fail üles"
 				>
 					<p>Lae fail üles</p>
 				</button>

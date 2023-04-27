@@ -15,11 +15,11 @@
 	class="flex flex-col bg-gray-100 rounded-xl lg:h-36 p-2 border-gray-200 border-2 max-w-xl dark:bg-black dark:border-yellow-300"
 >
 	<div class="flex flex-col lg:flex-row justify-between">
-		<div class=""><p>{topic}</p></div>
+		<div class=""><p aria-label={`Järgmine ülesanne: ${topic}`}>{topic}</p></div>
 		<div class="flex flex-row justify-start lg:justify-end">
 			{#each tags as tag}
-				<div class="mx-1">
-					<Pill text={tag} />
+				<div class="mx-1" aria-label={`Ülesande märge: ${tag}`}>
+					<Pill text={tag}/>
 				</div>
 			{/each}
 		</div>
@@ -29,8 +29,8 @@
 	</div>
 	<div class="flex flex-row w-full justify-between pt-3">
 		<div class="flex flex-col">
-			<p class="font-bold">{deadlineTime}</p>
-			<p class="font-thin">{deadlineDate}</p>
+			<p class="font-bold" aria-label="Tähtaja kellaaeg">{deadlineTime}</p>
+			<p class="font-thin" aria-label="Tähtaja kuupäev">{deadlineDate}</p>
 		</div>
 		<div class="flex items-center">
 			{#if completed}
@@ -44,7 +44,7 @@
 					href={`/courses/${courseId}/assignments/${assignmentId}`}
 					data-testid={`assignment-${assignmentId}-solve-button`}
 				>
-					<span class="dark:text-yellow-300">Lahenda</span>
+					<span class="dark:text-yellow-300" aria-label="Lahenda ülesannet">Lahenda</span>
 					<span class="pl-2">
 						<RightArrow
 							fill={`${isContrastMode ? 'yellow' : 'white'}`}

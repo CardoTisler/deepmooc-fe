@@ -16,7 +16,7 @@
 			<Logo fill={isContrastMode ? 'yellow' : 'black'} />
 		</a>
 
-		<div class="flex flex-row w-64 h-16">
+		<div class="flex flex-row w-64 h-16 items-center">
 			<div class="flex flex-col">
 				<p class="dark:text-yellow-300">Eesnimi Perenimi</p>
 				<a href="/" class="no-underline dark:text-yellow-300">Logi välja</a>

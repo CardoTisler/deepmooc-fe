@@ -14,7 +14,7 @@
 
 <div class="flex flex-col lg:px-20">
 	<div class="h-40 flex items-end p-3 dark:text-yellow-300">
-		<h1>Avaleht</h1>
+		<h1 aria-label="Avaleht">Avaleht</h1>
 	</div>
 
 	<div class="flex flex-col items-center xl:flex-row">

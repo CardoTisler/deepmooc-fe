@@ -5,7 +5,7 @@
 <svg
 	xmlns="http://www.w3.org/2000/svg"
 	width="150px"
-	height="79px"
+	height="70px"
 	viewBox="0 0 300.000000 79.000000"
 	preserveAspectRatio="xMidYMid meet"
 >

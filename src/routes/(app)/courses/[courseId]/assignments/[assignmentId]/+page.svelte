@@ -18,15 +18,15 @@
 <div class="max-w-screen-4xl lg:px-20">
 	<div class="h-40 flex items-end p-3 {isContrastMode ? 'black-bg' : ''}">
 		<div>
-			<h1 class="dark:text-yellow-300">{title}</h1>
-			<p class="text-lg dark:text-yellow-300">{topic}</p>
+			<h1 class="dark:text-yellow-300" aria-label="Ülesande pealkiri">{title}</h1>
+			<p class="text-lg dark:text-yellow-300" aria-label="Teema">{topic}</p>
 		</div>
 	</div>
 	<div class="flex flex-row pt-8">
 		<div class="w-full max-w-4xl pr-12">
 			<!-- Body -->
 			<h2 class="dark:text-yellow-300">Kirjeldus</h2>
-			<div class="pt-8">
+			<div class="pt-8" aria-label="Harjutuste sektsioon">
 				{#each tasks as task}
 					<div class="flex flex-row py-2">
 						<p class="pr-2 dark:text-yellow-300">{task.index}.</p>
