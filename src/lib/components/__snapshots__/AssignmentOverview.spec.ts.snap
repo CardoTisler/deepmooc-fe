@@ -12,7 +12,9 @@ exports[`AssignmentOverview.svelte > should render component with assignment but
         <div
           class=""
         >
-          <p>
+          <p
+            aria-label="Järgmine ülesanne: TEST TOPIC"
+          >
             TEST TOPIC
           </p>
         </div>
@@ -21,6 +23,7 @@ exports[`AssignmentOverview.svelte > should render component with assignment but
           class="flex flex-row justify-start lg:justify-end"
         >
           <div
+            aria-label="Ülesande märge: test tag"
             class="mx-1"
           >
             <div
@@ -55,12 +58,14 @@ exports[`AssignmentOverview.svelte > should render component with assignment but
           class="flex flex-col"
         >
           <p
+            aria-label="Tähtaja kellaaeg"
             class="font-bold"
           >
             00:00:00
           </p>
            
           <p
+            aria-label="Tähtaja kuupäev"
             class="font-thin"
           >
             01.01.1970
@@ -99,7 +104,9 @@ exports[`AssignmentOverview.svelte > should render component with assignment but
         <div
           class=""
         >
-          <p>
+          <p
+            aria-label="Järgmine ülesanne: TEST TOPIC"
+          >
             TEST TOPIC
           </p>
         </div>
@@ -108,6 +115,7 @@ exports[`AssignmentOverview.svelte > should render component with assignment but
           class="flex flex-row justify-start lg:justify-end"
         >
           <div
+            aria-label="Ülesande märge: test tag"
             class="mx-1"
           >
             <div
@@ -142,12 +150,14 @@ exports[`AssignmentOverview.svelte > should render component with assignment but
           class="flex flex-col"
         >
           <p
+            aria-label="Tähtaja kellaaeg"
             class="font-bold"
           >
             00:00:00
           </p>
            
           <p
+            aria-label="Tähtaja kuupäev"
             class="font-thin"
           >
             01.01.1970
@@ -163,6 +173,7 @@ exports[`AssignmentOverview.svelte > should render component with assignment but
             href="/courses/0/assignments/1"
           >
             <span
+              aria-label="Lahenda ülesannet"
               class="dark:text-yellow-300"
             >
               Lahenda

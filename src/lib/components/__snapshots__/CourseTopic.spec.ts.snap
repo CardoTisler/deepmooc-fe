@@ -8,6 +8,7 @@ exports[`CourseTopic.svelte > should render component 1`] = `
     >
       <div>
         <p
+          aria-label="Teema pealkiri"
           class="text-3xl text-semibold"
         >
           TEST TOPIC
@@ -15,6 +16,7 @@ exports[`CourseTopic.svelte > should render component 1`] = `
       </div>
        
       <div
+        aria-label="Teema kirjeldus"
         class="py-8"
       >
         <p>
@@ -23,6 +25,7 @@ exports[`CourseTopic.svelte > should render component 1`] = `
       </div>
        
       <div
+        aria-label="Ülesanded"
         class="flex flex-col"
       >
         <p>
@@ -41,7 +44,9 @@ exports[`CourseTopic.svelte > should render component 1`] = `
               <div
                 class=""
               >
-                <p>
+                <p
+                  aria-label="Järgmine ülesanne: TEST TOPIC"
+                >
                   TEST TOPIC
                 </p>
               </div>
@@ -50,6 +55,7 @@ exports[`CourseTopic.svelte > should render component 1`] = `
                 class="flex flex-row justify-start lg:justify-end"
               >
                 <div
+                  aria-label="Ülesande märge: test tag"
                   class="mx-1"
                 >
                   <div
@@ -84,12 +90,14 @@ exports[`CourseTopic.svelte > should render component 1`] = `
                 class="flex flex-col"
               >
                 <p
+                  aria-label="Tähtaja kellaaeg"
                   class="font-bold"
                 >
                   00:00:00
                 </p>
                  
                 <p
+                  aria-label="Tähtaja kuupäev"
                   class="font-thin"
                 >
                   01.01.1970
@@ -105,6 +113,7 @@ exports[`CourseTopic.svelte > should render component 1`] = `
                   href="/courses/0/assignments/1"
                 >
                   <span
+                    aria-label="Lahenda ülesannet"
                     class="dark:text-yellow-300"
                   >
                     Lahenda

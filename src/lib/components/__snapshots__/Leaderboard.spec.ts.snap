@@ -4,6 +4,7 @@ exports[`Leaderboard.svelte > should render component 1`] = `
 <body>
   <div>
     <div
+      aria-label="Edetabel"
       class="rounded-xl bg-gray-100 border-2 border-gray-200 h-36 flex flex-col justify-evenly container max-w-xl dark:bg-black dark:border-yellow-300  s-2C3Pk0x1uTjp"
     >
       <div
