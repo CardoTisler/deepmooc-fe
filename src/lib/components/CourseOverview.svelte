@@ -1,8 +1,7 @@
 <script lang="ts">
-	import { AssignmentOverview, Leaderboard } from '$lib/components';
+	import { AssignmentOverview, Leaderboard, Section } from '$lib/components';
 	import type { CourseOverviewData } from '$lib/types';
 	import RightArrow from './icons/RightArrow.svelte';
-	import Section from './util/Section.svelte';
 	import theme from '$lib/shared/stores/theme';
 
 	$: isContrastMode = $theme === 'contrast';

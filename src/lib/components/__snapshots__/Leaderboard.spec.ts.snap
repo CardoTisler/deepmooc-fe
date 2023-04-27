@@ -82,3 +82,86 @@ exports[`Leaderboard.svelte > should render component 1`] = `
   </div>
 </body>
 `;
+
+exports[`Leaderboard.svelte > should render component with contrast color scheme 1`] = `
+<body>
+  <div>
+    <div
+      aria-label="Edetabel"
+      class="rounded-xl bg-gray-100 border-2 border-gray-200 h-36 flex flex-col justify-evenly container max-w-xl dark:bg-black dark:border-yellow-300  s-2C3Pk0x1uTjp"
+    >
+      <div
+        class="grid grid-cols-3 gap-4 w-full s-2C3Pk0x1uTjp"
+      >
+        <div
+          class="flex justify-start pl-4 s-2C3Pk0x1uTjp"
+        >
+          <p
+            class="font-bold s-2C3Pk0x1uTjp"
+          >
+            1
+            .
+          </p>
+        </div>
+         
+        <div
+          class="flex justify-center s-2C3Pk0x1uTjp"
+        >
+          <p
+            class="font-bold s-2C3Pk0x1uTjp"
+          >
+            TEST NAME
+          </p>
+        </div>
+         
+        <div
+          class="flex justify-end pr-4 s-2C3Pk0x1uTjp"
+        >
+          <p
+            class="font-bold s-2C3Pk0x1uTjp"
+          >
+            100
+          </p>
+        </div>
+      </div>
+       
+      <div
+        class="grid grid-cols-3 gap-4 w-full s-2C3Pk0x1uTjp"
+      >
+        <div
+          class="flex justify-start pl-4 s-2C3Pk0x1uTjp"
+        >
+          <p
+            class="s-2C3Pk0x1uTjp"
+          >
+            ⋮
+          </p>
+        </div>
+         
+        <div
+          class="flex justify-center s-2C3Pk0x1uTjp"
+        >
+          <p
+            class="s-2C3Pk0x1uTjp"
+          >
+            ⋮
+          </p>
+        </div>
+         
+        <div
+          class="flex justify-end pr-4 s-2C3Pk0x1uTjp"
+        >
+          <p
+            class="s-2C3Pk0x1uTjp"
+          >
+            ⋮
+          </p>
+        </div>
+         
+      </div>
+      
+    </div>
+    <!--&lt;Leaderboard&gt;-->
+  </div>
+</body>
+`;

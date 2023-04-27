@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { AssignmentOverview } from '.';
-	import Section from './util/Section.svelte';
+	import { AssignmentOverview, Section } from '$lib/components';
 	let style = '';
 	export { style as class };
 

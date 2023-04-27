@@ -1,9 +1,11 @@
 import { render } from '@testing-library/svelte';
-import AssignmentOverview from './AssignmentOverview.svelte';
+import { AssignmentOverview } from '$lib/components';
 import type { AssignmentOverview as IAssignmentOverview } from '$lib/types.ts';
+import theme from '$lib/shared/stores/theme';
 
 describe('AssignmentOverview.svelte', () => {
 	it('should render component with assignment button enabled', () => {
+		theme.set('light');
 		const mockAssignment: IAssignmentOverview = {
 			assignmentId: 1,
 			courseId: 0,
@@ -19,6 +21,7 @@ describe('AssignmentOverview.svelte', () => {
 	});
 
 	it('should render component with assignment button disabled', () => {
+		theme.set('contrast');
 		const mockAssignment: IAssignmentOverview = {
 			assignmentId: 1,
 			courseId: 0,

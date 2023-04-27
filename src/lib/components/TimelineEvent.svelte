@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { TimelineEventData } from '$lib/types';
 	import RightArrow from './icons/RightArrow.svelte';
-	import Pill from './util/Pill.svelte';
+	import { Pill } from '$lib/components';
 	import theme from '$lib/shared/stores/theme';
 
 	$: isContrastMode = $theme === 'contrast';

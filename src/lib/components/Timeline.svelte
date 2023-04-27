@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { TimelineEventData } from '$lib/types';
-	import TimelineEvent from '$lib/components/TimelineEvent.svelte';
-	import Section from './util/Section.svelte';
+	import { TimelineEvent, Section } from '$lib/components';
 	import theme from '$lib/shared/stores/theme';
 
 	$: isContrastMode = $theme === 'contrast';

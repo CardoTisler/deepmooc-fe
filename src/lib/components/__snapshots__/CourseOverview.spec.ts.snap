@@ -192,3 +192,196 @@ exports[`CourseOverview.svelte > should render component 1`] = `
   </div>
 </body>
 `;
+
+exports[`CourseOverview.svelte > should render component with contrast color scheme 1`] = `
+<body>
+  <div>
+    <div
+      class="border-2 border-gray-200 rounded-xl bg-white w-full dark:border-yellow-300 p-8 grid grid-cols-1 gap-4 lg:gap-10 max-w-2xl lg:max-w-5xl lg:min-w-lg black-bg  s-u_aBuH8kPm0b"
+    >
+      <div
+        aria-label="Kursuse  ülevaade"
+        class="flex flex-row justify-between"
+      >
+        <div>
+          <h2
+            class="dark:text-yellow-300"
+          >
+            
+          </h2>
+           
+          <p
+            aria-label="Kursuse kood: "
+            class="gray-spaced dark:text-yellow-300"
+          >
+            
+          </p>
+        </div>
+         
+        <div
+          class="ml-16 lg:ml-0 flex items-center"
+        >
+          <a
+            aria-label="Sisene kursusele "
+            data-testid="course-0"
+            href="/courses/0"
+          >
+            <svg
+              clip-rule="evenodd"
+              fill="yellow"
+              fill-rule="evenodd"
+              height="24"
+              stroke="yellow"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"
+              />
+            </svg>
+            <!--&lt;RightArrow&gt;-->
+          </a>
+        </div>
+      </div>
+       
+      <div
+        class="grid grid-cols-1 2xl:grid-cols-2 gap-8"
+      >
+        <div
+          aria-label="Edetabeli komponent"
+          class="flex flex-col dark:text-yellow-300 dark:bg-black"
+        >
+          <p>
+            EDETABEL
+          </p>
+           
+          <div
+            aria-label="Edetabel"
+            class="rounded-xl bg-gray-100 border-2 border-gray-200 h-36 flex flex-col justify-evenly container max-w-xl dark:bg-black dark:border-yellow-300  s-2C3Pk0x1uTjp"
+          />
+          <!--&lt;Leaderboard&gt;-->
+        </div>
+         
+        <div
+          aria-label="Järgmise ülesande komponent"
+          class="flex flex-col dark:text-yellow-300"
+        >
+          <p>
+            JÄRGMINE ÜLESANNE
+          </p>
+           
+          <div
+            class="flex flex-col bg-gray-100 rounded-xl lg:h-36 p-2 border-gray-200 border-2 max-w-xl dark:bg-black dark:border-yellow-300"
+          >
+            <div
+              class="flex flex-col lg:flex-row justify-between"
+            >
+              <div
+                class=""
+              >
+                <p
+                  aria-label="Järgmine ülesanne: TEST TOPIC"
+                >
+                  TEST TOPIC
+                </p>
+              </div>
+               
+              <div
+                class="flex flex-row justify-start lg:justify-end"
+              >
+                <div
+                  aria-label="Ülesande märge: test tag"
+                  class="mx-1"
+                >
+                  <div
+                    class="rounded-full bg-gray-200 px-2 dark:bg-black "
+                  >
+                    <span
+                      class="text-gray-600 dark:text-yellow-300"
+                    >
+                      test tag
+                    </span>
+                  </div>
+                  <!--&lt;Pill&gt;-->
+                   
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="w-full py-2"
+            >
+              <p
+                class="text-xl font-bold"
+              >
+                TEST TITLE
+              </p>
+            </div>
+             
+            <div
+              class="flex flex-row w-full justify-between pt-3"
+            >
+              <div
+                class="flex flex-col"
+              >
+                <p
+                  aria-label="Tähtaja kellaaeg"
+                  class="font-bold"
+                >
+                  00:00:00
+                </p>
+                 
+                <p
+                  aria-label="Tähtaja kuupäev"
+                  class="font-thin"
+                >
+                  01.01.1970
+                </p>
+              </div>
+               
+              <div
+                class="flex items-center"
+              >
+                <a
+                  class="bg-primary-200 text-white hover:bg-primary-300 rounded-sm p-2 flex flex-row dark:bg-black dark:border-2 dark:border-yellow-300 dark:bg-gray-900 hover:dark:bg-black"
+                  data-testid="assignment-1-solve-button"
+                  href="/courses/0/assignments/1"
+                >
+                  <span
+                    aria-label="Lahenda ülesannet"
+                    class="dark:text-yellow-300"
+                  >
+                    Lahenda
+                  </span>
+                   
+                  <span
+                    class="pl-2"
+                  >
+                    <svg
+                      clip-rule="evenodd"
+                      fill="yellow"
+                      fill-rule="evenodd"
+                      height="24"
+                      stroke="yellow"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"
+                      />
+                    </svg>
+                    <!--&lt;RightArrow&gt;-->
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--&lt;AssignmentOverview&gt;-->
+        </div>
+      </div>
+    </div>
+    <!--&lt;Section&gt;-->
+    <!--&lt;CourseOverview&gt;-->
+  </div>
+</body>
+`;

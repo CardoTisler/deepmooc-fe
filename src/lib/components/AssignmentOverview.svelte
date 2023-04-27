@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Pill from '$lib/components/util/Pill.svelte';
+	import { Pill } from '$lib/components';
 	import type { AssignmentOverview } from '$lib/types';
 	import RightArrow from './icons/RightArrow.svelte';
 	export let data: AssignmentOverview;

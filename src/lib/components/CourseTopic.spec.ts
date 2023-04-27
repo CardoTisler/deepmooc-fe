@@ -1,5 +1,5 @@
 import { render } from '@testing-library/svelte';
-import { CourseTopic } from '.';
+import { CourseTopic } from '$lib/components';
 
 describe('CourseTopic.svelte', () => {
 	it('should render component', () => {
