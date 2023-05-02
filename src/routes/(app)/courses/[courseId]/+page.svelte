@@ -6,8 +6,11 @@
 	import type { LeaderboardRow } from '$lib/types';
 	import { Leaderboard } from '$lib/components';
 	import { exampleLeaderboardRows } from '$lib/util/consts';
-	export let data: PageData;
 	import theme from '$lib/shared/stores/theme';
+	import { goto } from '$app/navigation';
+	import isAuthenticated from '$lib/shared/stores/auth';
+	import { onMount } from 'svelte';
+	export let data: PageData;
 
 	$: isContrastMode = $theme === 'contrast';
 	const {
@@ -19,6 +22,11 @@
 		exampleLeaderboardRows,
 		exampleLeaderboardRows
 	];
+	onMount(() => {
+		if (!$isAuthenticated) {
+			goto('/');
+		}
+	});
 </script>
 
 <svelte:head>
@@ -46,7 +54,10 @@
 				<div class="flex flex-row justify-between">
 					<p class="gray-spaced dark:text-yellow-300">EDETABEL</p>
 					<button on:click={() => alert('Dont know where to go')}>
-						<RightArrow stroke={isContrastMode ? "yellow" : "text-gray-600"} fill={isContrastMode ? "yellow" : "text-gray-600"}/>
+						<RightArrow
+							stroke={isContrastMode ? 'yellow' : 'text-gray-600'}
+							fill={isContrastMode ? 'yellow' : 'text-gray-600'}
+						/>
 					</button>
 				</div>
 				<Leaderboard rows={exampleLeaderboardRows} class="mt-6" />

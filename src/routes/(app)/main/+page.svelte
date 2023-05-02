@@ -2,9 +2,17 @@
 	import CourseOverview from '$lib/components/CourseOverview.svelte';
 	import Timeline from '$lib/components/Timeline.svelte';
 	import type { PageData } from './$types';
+	import { goto } from '$app/navigation';
+	import isAuthenticated from '$lib/shared/stores/auth';
+	import { onMount } from 'svelte';
 
 	export let data: PageData;
 	const { courseOverviewList, timelineEventsList } = data;
+	onMount(() => {
+		if (!$isAuthenticated) {
+			goto('/');
+		}
+	});
 </script>
 
 <svelte:head>

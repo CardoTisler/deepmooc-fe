@@ -2,10 +2,16 @@
 	import RightArrow from '$lib/components/icons/RightArrow.svelte';
 	import theme from '$lib/shared/stores/theme';
 	import type { PageData } from './$types';
+	import isAuthenticated from '$lib/shared/stores/auth';
+	import { goto } from '$app/navigation';
 	export let data: PageData;
 
 	const { backendAccessible } = data;
 	$: isContrastMode = $theme === 'contrast';
+
+	if ($isAuthenticated) {
+		goto('/main');
+	}
 </script>
 
 <svelte:head>
