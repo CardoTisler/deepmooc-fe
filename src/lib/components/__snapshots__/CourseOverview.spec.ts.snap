@@ -150,6 +150,7 @@ exports[`CourseOverview.svelte > should render component 1`] = `
                 class="flex items-center"
               >
                 <a
+                  aria-label="lahenda ülesannet"
                   class="bg-primary-200 text-white hover:bg-primary-300 rounded-sm p-2 flex flex-row dark:bg-black dark:border-2 dark:border-yellow-300 dark:bg-gray-900 hover:dark:bg-black"
                   data-testid="assignment-1-solve-button"
                   href="/courses/0/assignments/1"
@@ -343,6 +344,7 @@ exports[`CourseOverview.svelte > should render component with contrast color sch
                 class="flex items-center"
               >
                 <a
+                  aria-label="lahenda ülesannet"
                   class="bg-primary-200 text-white hover:bg-primary-300 rounded-sm p-2 flex flex-row dark:bg-black dark:border-2 dark:border-yellow-300 dark:bg-gray-900 hover:dark:bg-black"
                   data-testid="assignment-1-solve-button"
                   href="/courses/0/assignments/1"

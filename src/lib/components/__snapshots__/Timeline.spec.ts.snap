@@ -31,6 +31,7 @@ exports[`Timeline.svelte > should render component 1`] = `
              
             <div>
               <a
+                aria-label="lahenda ülesannet"
                 href="/courses/169/assignments/69"
               >
                 <svg
@@ -161,6 +162,7 @@ exports[`Timeline.svelte > should render component with contrast color scheme 1`
              
             <div>
               <a
+                aria-label="lahenda ülesannet"
                 href="/courses/169/assignments/69"
               >
                 <svg

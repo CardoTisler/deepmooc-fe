@@ -10,6 +10,7 @@ exports[`Header.svelte > should render component 1`] = `
         class="flex flex-row justify-between header dark:border-b-yellow-300 s-TTyPr9WmAsat"
       >
         <a
+          aria-label="Tooru logo"
           class="w-32 pl-4 s-TTyPr9WmAsat"
           href="/main"
         >
@@ -76,6 +77,7 @@ exports[`Header.svelte > should render component 1`] = `
             </p>
              
             <a
+              aria-label="Logi välja"
               class="no-underline dark:text-yellow-300 s-TTyPr9WmAsat"
               href="/"
             >
@@ -123,6 +125,7 @@ exports[`Header.svelte > should render component with contrast mode 1`] = `
         class="flex flex-row justify-between header dark:border-b-yellow-300 s-TTyPr9WmAsat"
       >
         <a
+          aria-label="Tooru logo"
           class="w-32 pl-4 s-TTyPr9WmAsat"
           href="/main"
         >
@@ -189,6 +192,7 @@ exports[`Header.svelte > should render component with contrast mode 1`] = `
             </p>
              
             <a
+              aria-label="Logi välja"
               class="no-underline dark:text-yellow-300 s-TTyPr9WmAsat"
               href="/"
             >

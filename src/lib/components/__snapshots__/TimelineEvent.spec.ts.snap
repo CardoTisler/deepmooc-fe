@@ -20,6 +20,7 @@ exports[`TimelineEvent.svelte > should render component 1`] = `
            
           <div>
             <a
+              aria-label="lahenda ülesannet"
               href="/courses/undefined/assignments/undefined"
             >
               <svg
@@ -135,6 +136,7 @@ exports[`TimelineEvent.svelte > should render component with contrast color sche
            
           <div>
             <a
+              aria-label="lahenda ülesannet"
               href="/courses/undefined/assignments/undefined"
             >
               <svg
