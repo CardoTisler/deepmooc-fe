@@ -19,7 +19,7 @@
 		<div class="flex flex-row justify-start lg:justify-end">
 			{#each tags as tag}
 				<div class="mx-1" aria-label={`Ülesande märge: ${tag}`}>
-					<Pill text={tag}/>
+					<Pill text={tag} />
 				</div>
 			{/each}
 		</div>
@@ -34,8 +34,7 @@
 		</div>
 		<div class="flex items-center">
 			{#if completed}
-				<button
-					class="border border-gray-700 text-gray-600 p-2 rounded-sm disabled dark:bg-black"
+				<button class="border border-gray-700 text-gray-600 p-2 rounded-sm disabled dark:bg-black"
 					><span class="dark:text-yellow-300">Lahendatud</span></button
 				>
 			{:else}
@@ -43,6 +42,7 @@
 					class="bg-primary-200 text-white hover:bg-primary-300 rounded-sm p-2 flex flex-row dark:bg-black dark:border-2 dark:border-yellow-300 dark:bg-gray-900 hover:dark:bg-black"
 					href={`/courses/${courseId}/assignments/${assignmentId}`}
 					data-testid={`assignment-${assignmentId}-solve-button`}
+					aria-label="lahenda ülesannet"
 				>
 					<span class="dark:text-yellow-300" aria-label="Lahenda ülesannet">Lahenda</span>
 					<span class="pl-2">

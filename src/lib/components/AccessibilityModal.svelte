@@ -15,8 +15,11 @@
 <Section class="w-full max-w-4xl p-4 {isContrastMode ? 'black-bg' : ''}">
 	<div class="flex flex-col">
 		<div class="flex justify-end">
-			<!-- TODO: Replace with X icon -->
-			<button class="p-2 focus:border-2 focus:border-blue-600 dark:text-yellow-300" on:click={toggleMenu}>X</button>
+			<button
+				class="p-2 focus:border-2 focus:border-blue-600 dark:text-yellow-300"
+				on:click={toggleMenu}
+				aria-label="Sulge komponent">X</button
+			>
 		</div>
 		<div>
 			<h3 class="dark:text-yellow-300">Juurdepääsetavus</h3>
@@ -43,11 +46,13 @@
 			<div class="flex flex-row w-full xl:w-1/2 justify-between">
 				<!-- svelte-ignore a11y-autofocus -->
 				<button
+					aria-label="tavakontrastiga värviskeem"
 					class="text-xl border-2 border-primary-200 rounded-xl py-2 px-3 hover:bg-primary-200 dark:text-yellow-300 dark:border-yellow-300 dark:hover:bg-gray-900 focus:border-blue-600 focus:first"
 					on:click={enableLightMode}
 					autofocus>Tava sätted</button
 				>
 				<button
+					aria-label="kõrge kontrastiga värviskeem"
 					class="text-xl focus:border-2 bg-gray-800 text-white rounded-xl py-2 px-3 focus:border-blue-600 hover:bg-gray-900 dark:text-yellow-300"
 					on:click={enableContrastMode}
 					>Must taust ja <span class="text-yellow-300">kollane tekst</span></button

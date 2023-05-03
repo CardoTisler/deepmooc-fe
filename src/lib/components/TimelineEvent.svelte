@@ -26,7 +26,7 @@
 				<h3>{title}</h3>
 			</div>
 			<div>
-				<a href={`/courses/${courseId}/assignments/${assignmentId}`}>
+				<a href={`/courses/${courseId}/assignments/${assignmentId}`} aria-label="lahenda ülesannet">
 					<RightArrow
 						stroke={`${isContrastMode ? 'yellow' : 'black'}`}
 						fill={`${isContrastMode ? 'yellow' : 'black'}`}

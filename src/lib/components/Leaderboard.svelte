@@ -6,7 +6,8 @@
 </script>
 
 <div
-	class="rounded-xl bg-gray-100 border-2 border-gray-200 h-36 flex flex-col justify-evenly container max-w-xl dark:bg-black dark:border-yellow-300 {style}" aria-label="Edetabel"
+	class="rounded-xl bg-gray-100 border-2 border-gray-200 h-36 flex flex-col justify-evenly container max-w-xl dark:bg-black dark:border-yellow-300 {style}"
+	aria-label="Edetabel"
 >
 	{#each rows as { index, name, score, bold }, i}
 		<div class="grid grid-cols-3 gap-4 w-full">

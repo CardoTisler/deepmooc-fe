@@ -6,11 +6,16 @@
 </script>
 
 <div class="w-fit h-80 flex items-center justify-center">
-	<Section class="w-fit p-4 {isContrastMode ? 'black-bg' : ''} focus:border-2 focus:border-primary-100">
+	<Section
+		class="w-fit p-4 {isContrastMode ? 'black-bg' : ''} focus:border-2 focus:border-primary-100"
+	>
 		<form action="?/assignment" method="POST" enctype="multipart/form-data">
 			<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-			<label for="file-upload" tabindex="0" class="{isContrastMode ? 'label-bg-yellow' : 'label-bg-black'} focus:border-primary-100" aria-label="Vali fail üleslaadimiseks"
-				>Upload file</label
+			<label
+				for="file-upload"
+				tabindex="0"
+				class="{isContrastMode ? 'label-bg-yellow' : 'label-bg-black'} focus:border-primary-100"
+				aria-label="Vali fail üleslaadimiseks">Upload file</label
 			>
 			<input
 				id="file-upload"

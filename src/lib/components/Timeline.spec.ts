@@ -27,5 +27,5 @@ describe('Timeline.svelte', () => {
 		theme.set('contrast');
 		const { container } = render(Timeline, { eventsList: mockEventsList });
 		expect(container).toMatchSnapshot();
-	})
+	});
 });

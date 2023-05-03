@@ -53,7 +53,7 @@
 			<div class="flex flex-col">
 				<div class="flex flex-row justify-between">
 					<p class="gray-spaced dark:text-yellow-300">EDETABEL</p>
-					<button on:click={() => alert('Dont know where to go')}>
+					<button on:click={() => alert('Dont know where to go')} aria-label="Edetabeli nupp">
 						<RightArrow
 							stroke={isContrastMode ? 'yellow' : 'text-gray-600'}
 							fill={isContrastMode ? 'yellow' : 'text-gray-600'}

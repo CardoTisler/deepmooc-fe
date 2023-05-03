@@ -15,10 +15,11 @@
 <div class="landing flex flex-col {isContrastMode ? 'black-bg' : ''}">
 	<div class="h-16 lg:w-1/2 flex flex-row justify-between shadow-sm">
 		<div class="ml-4 h-full">
-			<a href="/" class=""><Logo fill={isContrastMode ? 'yellow' : 'black'} /></a>
+			<a href="/" class="" aria-label="Logo"><Logo fill={isContrastMode ? 'yellow' : 'black'} /></a>
 		</div>
 		<div class="self-center mr-2">
 			<button
+				aria-label="ava juurdepääsetavuse komponent"
 				class="border-2 rounded-sm p-1 dark:text-yellow-300 focus:border-blue-600"
 				on:click={toggleAccessibilityMenu}>Juurdepääsetavus</button
 			>

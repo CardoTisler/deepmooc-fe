@@ -20,10 +20,15 @@
 	<div class="flex flex-row justify-between" aria-label={`Kursuse ${courseName} ülevaade`}>
 		<div>
 			<h2 class="dark:text-yellow-300">{courseName}</h2>
-			<p class="gray-spaced dark:text-yellow-300" aria-label={`Kursuse kood: ${courseCode}`}>{courseCode}</p>
+			<p class="gray-spaced dark:text-yellow-300" aria-label={`Kursuse kood: ${courseCode}`}>
+				{courseCode}
+			</p>
 		</div>
 		<div class="ml-16 lg:ml-0 flex items-center">
-			<a href={`/courses/${courseId}`} data-testid={`course-${courseId}`} aria-label={`Sisene kursusele ${courseName}`}
+			<a
+				href={`/courses/${courseId}`}
+				data-testid={`course-${courseId}`}
+				aria-label={`Sisene kursusele ${courseName}`}
 				><RightArrow
 					fill={isContrastMode ? 'yellow' : 'black'}
 					stroke={isContrastMode ? 'yellow' : 'black'}

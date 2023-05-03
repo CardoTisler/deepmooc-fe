@@ -13,6 +13,7 @@ exports[`AccessibilityModal.svelte > should render component 1`] = `
           class="flex justify-end s-dFbO1oczX-LX"
         >
           <button
+            aria-label="Sulge komponent"
             class="p-2 focus:border-2 focus:border-blue-600 dark:text-yellow-300 s-dFbO1oczX-LX"
           >
             X
@@ -80,6 +81,7 @@ exports[`AccessibilityModal.svelte > should render component 1`] = `
             class="flex flex-row w-full xl:w-1/2 justify-between s-dFbO1oczX-LX"
           >
             <button
+              aria-label="tavakontrastiga värviskeem"
               autofocus=""
               class="text-xl border-2 border-primary-200 rounded-xl py-2 px-3 hover:bg-primary-200 dark:text-yellow-300 dark:border-yellow-300 dark:hover:bg-gray-900 focus:border-blue-600 focus:first s-dFbO1oczX-LX"
             >
@@ -87,6 +89,7 @@ exports[`AccessibilityModal.svelte > should render component 1`] = `
             </button>
              
             <button
+              aria-label="kõrge kontrastiga värviskeem"
               class="text-xl focus:border-2 bg-gray-800 text-white rounded-xl py-2 px-3 focus:border-blue-600 hover:bg-gray-900 dark:text-yellow-300 s-dFbO1oczX-LX"
             >
               Must taust ja 
@@ -119,6 +122,7 @@ exports[`AccessibilityModal.svelte > should render component with contrast color
           class="flex justify-end s-dFbO1oczX-LX"
         >
           <button
+            aria-label="Sulge komponent"
             class="p-2 focus:border-2 focus:border-blue-600 dark:text-yellow-300 s-dFbO1oczX-LX"
           >
             X
@@ -186,6 +190,7 @@ exports[`AccessibilityModal.svelte > should render component with contrast color
             class="flex flex-row w-full xl:w-1/2 justify-between s-dFbO1oczX-LX"
           >
             <button
+              aria-label="tavakontrastiga värviskeem"
               autofocus=""
               class="text-xl border-2 border-primary-200 rounded-xl py-2 px-3 hover:bg-primary-200 dark:text-yellow-300 dark:border-yellow-300 dark:hover:bg-gray-900 focus:border-blue-600 focus:first s-dFbO1oczX-LX"
             >
@@ -193,6 +198,7 @@ exports[`AccessibilityModal.svelte > should render component with contrast color
             </button>
              
             <button
+              aria-label="kõrge kontrastiga värviskeem"
               class="text-xl focus:border-2 bg-gray-800 text-white rounded-xl py-2 px-3 focus:border-blue-600 hover:bg-gray-900 dark:text-yellow-300 s-dFbO1oczX-LX"
             >
               Must taust ja 

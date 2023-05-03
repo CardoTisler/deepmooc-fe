@@ -23,5 +23,5 @@ describe('Leaderboard.svelte', () => {
 		theme.set('contrast');
 		const { container } = render(Leaderboard, { rows: mockRows });
 		expect(container).toMatchSnapshot();
-	})
+	});
 });

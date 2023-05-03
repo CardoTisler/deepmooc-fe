@@ -5,11 +5,11 @@ export const load = (async ({ fetch }) => {
 	// reviewers to boot it up. Therefore if backend is not running then login page will just let you to the app, otherwise
 	// it will direct you to login which will redirect you back here.
 	let backendAccessible = false;
-	
+
 	await fetch('http://localhost:8080/api/general/me')
-		.then(() => backendAccessible = true)
+		.then(() => (backendAccessible = true))
 		.catch((e) => {
-			console.log(e)
+			console.log(e);
 		});
 
 	return {
