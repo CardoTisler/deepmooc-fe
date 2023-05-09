@@ -7,9 +7,6 @@
 	import { Leaderboard } from '$lib/components';
 	import { exampleLeaderboardRows } from '$lib/util/consts';
 	import theme from '$lib/shared/stores/theme';
-	import { goto } from '$app/navigation';
-	import isAuthenticated from '$lib/shared/stores/auth';
-	import { onMount } from 'svelte';
 	export let data: PageData;
 
 	$: isContrastMode = $theme === 'contrast';
@@ -22,11 +19,6 @@
 		exampleLeaderboardRows,
 		exampleLeaderboardRows
 	];
-	onMount(() => {
-		if (!$isAuthenticated) {
-			goto('/');
-		}
-	});
 </script>
 
 <svelte:head>

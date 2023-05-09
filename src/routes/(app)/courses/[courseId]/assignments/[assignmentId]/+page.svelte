@@ -2,21 +2,12 @@
 	import { Section, FileInput } from '$lib/components';
 	import type { PageData } from './$types';
 	import theme from '$lib/shared/stores/theme';
-	import isAuthenticated from '$lib/shared/stores/auth';
-	import { goto } from '$app/navigation';
-	import { onMount } from 'svelte';
 
 	$: isContrastMode = $theme === 'contrast';
 	export let data: PageData;
 	const {
 		assignmentDetails: { title, topic, tasks }
 	} = data;
-
-	onMount(() => {
-		if (!$isAuthenticated) {
-			goto('/');
-		}
-	});
 </script>
 
 <svelte:head>

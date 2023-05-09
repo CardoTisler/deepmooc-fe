@@ -4,11 +4,11 @@ import fs from 'fs/promises';
 import path from 'path';
 import { redirect } from '@sveltejs/kit';
 
-// TODO: Add server response validation, Joi is probably best bet
-
 // finds specified assignment based on courseId and assignmentId
-export const load = (async ({ params, fetch }) => {
-	// const { assignmentId, courseId } = params;
+export const load = (async ({ fetch, locals }) => {
+	if (!locals.authenticated) {
+		throw redirect(302, '/');
+	}
 
 	const { data: details } = await fetch('/mockData/assignmentDetails.json')
 		.then((res) => res.json())
@@ -31,10 +31,8 @@ export const actions: Actions = {
 				'assignments',
 				`${crypto.randomUUID()}.${(data.assignment as Blob).type.split('/')[1]}`
 			);
-			await fs.writeFile(filePath, Buffer.from(await (data.assignment as Blob).arrayBuffer()));
 
-			// TODO: store the file path in database for further references.
-			// throw redirect(303, url.pathname);
+			await fs.writeFile(filePath, Buffer.from(await (data.assignment as Blob).arrayBuffer()));
 		} catch (err) {
 			console.log(err);
 			throw new Error('Saving file failed.');

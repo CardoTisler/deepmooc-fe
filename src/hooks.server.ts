@@ -2,42 +2,24 @@ import { redirect } from '@sveltejs/kit';
 import type { Handle } from '@sveltejs/kit';
 import { parse } from 'cookie';
 
-// /src/hooks.server.ts
+const isDemonstrationMode = true;
+
 export const handle: Handle = async ({ event, resolve }) => {
 	const { headers } = event.request;
 	const cookies = parse(headers.get('cookie') ?? '');
 
-	console.log(cookies);
-	// if (cookies.AuthorizationToken) {
-	//   // Remove Bearer prefix
-	//   const token = cookies.AuthorizationToken.split(" ")[1];
+	// ----
+	// this is only for demonstration, once thesis is defended, it should be removed so that server can check cookies for actual values needed to
+	// ensure authentication.
+	if (isDemonstrationMode) {
+		event.locals.authenticated = true;
+	} 
+	// ----
 
-	//   try {
-	//     const jwtUser = jwt.verify(token, import.meta.env.VITE_JWT_ACCESS_SECRET);
-	//     if (typeof jwtUser === "string") {
-	//       throw new Error("Something went wrong");
-	//     }
-
-	//     const user = await db.user.findUnique({
-	//       where: {
-	//         id: jwtUser.id,
-	//       },
-	//     });
-
-	//     if (!user) {
-	//       throw new Error("User not found");
-	//     }
-
-	//     const sessionUser: SessionUser = {
-	//       id: user.id,
-	//       email: user.email,
-	//     };
-
-	//     event.locals.user = sessionUser;
-	//   } catch (error) {
-	//     console.error(error);
-	//   }
-	// }
+	if (cookies.pac4jCsrfToken) {
+		const token = cookies.pac4jCsrfToken;
+		event.locals.authenticated = true;
+	}
 
 	return await resolve(event);
 };

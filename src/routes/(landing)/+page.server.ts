@@ -1,6 +1,11 @@
+import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
-export const load = (async ({ fetch }) => {
+export const load = (async ({ fetch, locals }) => {
+	if (locals.authenticated) {
+		throw redirect(302, '/main');
+	}
+
 	// this is purely for demonstration purposes since backend is not hosted anywhere and I don't want to force
 	// reviewers to boot it up. Therefore if backend is not running then login page will just let you to the app, otherwise
 	// it will direct you to login which will redirect you back here.
